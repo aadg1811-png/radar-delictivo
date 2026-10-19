@@ -1,0 +1,1873 @@
+provincia_id,provincia_nombre,anio,codigo_delito_snic_id,codigo_delito_snic_nombre,cantidad_hechos,tasa_hechos
+2,Ciudad Autónoma de Buenos Aires,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),68937,2301.7561
+2,Ciudad Autónoma de Buenos Aires,2000,17,Robos agravados por el resultado de lesiones y/o muertes,37,1.2354031
+2,Ciudad Autónoma de Buenos Aires,2000,19,Hurtos,64018,2137.5144
+2,Ciudad Autónoma de Buenos Aires,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),69474,2319.3586
+2,Ciudad Autónoma de Buenos Aires,2001,17,Robos agravados por el resultado de lesiones y/o muertes,173,5.7755284
+2,Ciudad Autónoma de Buenos Aires,2001,19,Hurtos,61671,2058.8589
+2,Ciudad Autónoma de Buenos Aires,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),71592,2387.1519
+2,Ciudad Autónoma de Buenos Aires,2002,17,Robos agravados por el resultado de lesiones y/o muertes,105,3.5011029
+2,Ciudad Autónoma de Buenos Aires,2002,19,Hurtos,61597,2053.8804
+2,Ciudad Autónoma de Buenos Aires,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),73222,2438.5239
+2,Ciudad Autónoma de Buenos Aires,2003,17,Robos agravados por el resultado de lesiones y/o muertes,28,0.9324885
+2,Ciudad Autónoma de Buenos Aires,2003,19,Hurtos,51050,1700.1263
+2,Ciudad Autónoma de Buenos Aires,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),69938,2326.3154
+2,Ciudad Autónoma de Buenos Aires,2004,17,Robos agravados por el resultado de lesiones y/o muertes,63,2.09554
+2,Ciudad Autónoma de Buenos Aires,2004,19,Hurtos,48990,1629.5319
+2,Ciudad Autónoma de Buenos Aires,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),71277,2367.9626
+2,Ciudad Autónoma de Buenos Aires,2005,17,Robos agravados por el resultado de lesiones y/o muertes,16,0.5315516
+2,Ciudad Autónoma de Buenos Aires,2005,19,Hurtos,50701,1684.3872
+2,Ciudad Autónoma de Buenos Aires,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),78157,2593.3625
+2,Ciudad Autónoma de Buenos Aires,2006,17,Robos agravados por el resultado de lesiones y/o muertes,12,0.39817742
+2,Ciudad Autónoma de Buenos Aires,2006,19,Hurtos,54984,1824.4489
+2,Ciudad Autónoma de Buenos Aires,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),83055,2752.5234
+2,Ciudad Autónoma de Buenos Aires,2007,17,Robos agravados por el resultado de lesiones y/o muertes,16,0.53025556
+2,Ciudad Autónoma de Buenos Aires,2007,19,Hurtos,54389,1802.5043
+2,Ciudad Autónoma de Buenos Aires,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),87168,2885.3086
+2,Ciudad Autónoma de Buenos Aires,2008,17,Robos agravados por el resultado de lesiones y/o muertes,26,0.86061424
+2,Ciudad Autónoma de Buenos Aires,2008,19,Hurtos,56084,1856.4111
+2,Ciudad Autónoma de Buenos Aires,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),82677,2733.3164
+2,Ciudad Autónoma de Buenos Aires,2009,17,Robos agravados por el resultado de lesiones y/o muertes,19,0.62814343
+2,Ciudad Autónoma de Buenos Aires,2009,19,Hurtos,56845,1879.3059
+2,Ciudad Autónoma de Buenos Aires,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),80991,2674.311
+2,Ciudad Autónoma de Buenos Aires,2010,17,Robos agravados por el resultado de lesiones y/o muertes,14,0.46227795
+2,Ciudad Autónoma de Buenos Aires,2010,19,Hurtos,54408,1796.5442
+2,Ciudad Autónoma de Buenos Aires,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),79746,2628.7241
+2,Ciudad Autónoma de Buenos Aires,2011,17,Robos agravados por el resultado de lesiones y/o muertes,58,1.9118953
+2,Ciudad Autónoma de Buenos Aires,2011,19,Hurtos,55054,1814.7842
+2,Ciudad Autónoma de Buenos Aires,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),78627,2587.3848
+2,Ciudad Autónoma de Buenos Aires,2012,17,Robos agravados por el resultado de lesiones y/o muertes,106,3.4881501
+2,Ciudad Autónoma de Buenos Aires,2012,19,Hurtos,55533,1827.4287
+2,Ciudad Autónoma de Buenos Aires,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),71594,2351.9124
+2,Ciudad Autónoma de Buenos Aires,2013,17,Robos agravados por el resultado de lesiones y/o muertes,158,5.1904092
+2,Ciudad Autónoma de Buenos Aires,2013,19,Hurtos,50241,1650.4515
+2,Ciudad Autónoma de Buenos Aires,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),75685,2482.1028
+2,Ciudad Autónoma de Buenos Aires,2014,17,Robos agravados por el resultado de lesiones y/o muertes,166,5.4439993
+2,Ciudad Autónoma de Buenos Aires,2014,19,Hurtos,48317,1584.5645
+2,Ciudad Autónoma de Buenos Aires,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),62909,2059.7085
+2,Ciudad Autónoma de Buenos Aires,2015,17,Robos agravados por el resultado de lesiones y/o muertes,133,4.3545637
+2,Ciudad Autónoma de Buenos Aires,2015,19,Hurtos,42410,1388.5492
+2,Ciudad Autónoma de Buenos Aires,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),67497,2206.4175
+2,Ciudad Autónoma de Buenos Aires,2016,17,Robos agravados por el resultado de lesiones y/o muertes,128,4.184207
+2,Ciudad Autónoma de Buenos Aires,2016,19,Hurtos,44175,1444.0417
+2,Ciudad Autónoma de Buenos Aires,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),68219,2226.666335914937
+2,Ciudad Autónoma de Buenos Aires,2017,17,Robos agravados por el resultado de lesiones y/o muertes,78,2.545917914384045
+2,Ciudad Autónoma de Buenos Aires,2017,19,Hurtos,42150,1375.774872965224
+2,Ciudad Autónoma de Buenos Aires,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),70916,2311.440876154604
+2,Ciudad Autónoma de Buenos Aires,2018,17,Robos agravados por el resultado de lesiones y/o muertes,205,6.681783795077187
+2,Ciudad Autónoma de Buenos Aires,2018,19,Hurtos,42274,1377.881600746795
+2,Ciudad Autónoma de Buenos Aires,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),62791,2043.958569401526
+2,Ciudad Autónoma de Buenos Aires,2019,17,Robos agravados por el resultado de lesiones y/o muertes,554,18.03368392681189
+2,Ciudad Autónoma de Buenos Aires,2019,19,Hurtos,50247,1635.629090741005
+2,Ciudad Autónoma de Buenos Aires,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),33671,1094.761880918675
+2,Ciudad Autónoma de Buenos Aires,2020,17,Robos agravados por el resultado de lesiones y/o muertes,1089,35.40719575659878
+2,Ciudad Autónoma de Buenos Aires,2020,19,Hurtos,25950,843.7251881393373
+2,Ciudad Autónoma de Buenos Aires,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),43810,1422.940357979444
+2,Ciudad Autónoma de Buenos Aires,2021,17,Robos agravados por el resultado de lesiones y/o muertes,1275,41.41175431234402
+2,Ciudad Autónoma de Buenos Aires,2021,19,Hurtos,36718,1192.5935645809
+2,Ciudad Autónoma de Buenos Aires,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),55163,1767.371344702291
+2,Ciudad Autónoma de Buenos Aires,2022,17,Robos agravados por el resultado de lesiones y/o muertes,1446,46.32849853052794
+2,Ciudad Autónoma de Buenos Aires,2022,19,Hurtos,54967,1761.091686533561
+2,Ciudad Autónoma de Buenos Aires,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),64723,2082.53563345468
+2,Ciudad Autónoma de Buenos Aires,2023,17,Robos agravados por el resultado de lesiones y/o muertes,432,13.90008796953821
+2,Ciudad Autónoma de Buenos Aires,2023,19,Hurtos,63264,2035.59066042793
+2,Ciudad Autónoma de Buenos Aires,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),68550,2215.768318876697
+2,Ciudad Autónoma de Buenos Aires,2024,17,Robos agravados por el resultado de lesiones y/o muertes,234,7.563673035990478
+2,Ciudad Autónoma de Buenos Aires,2024,19,Hurtos,63266,2044.971531175101
+2,Ciudad Autónoma de Buenos Aires,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),49771,1616.112614516991
+2,Ciudad Autónoma de Buenos Aires,2025,17,Robos agravados por el resultado de lesiones y/o muertes,686,22.27508496029125
+2,Ciudad Autónoma de Buenos Aires,2025,19,Hurtos,50191,1629.750421635537
+6,Buenos Aires,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),97352,694.67267
+6,Buenos Aires,2000,17,Robos agravados por el resultado de lesiones y/o muertes,7896,56.343327
+6,Buenos Aires,2000,19,Hurtos,59948,427.76971
+6,Buenos Aires,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),101140,713.90643
+6,Buenos Aires,2001,17,Robos agravados por el resultado de lesiones y/o muertes,8449,59.638081
+6,Buenos Aires,2001,19,Hurtos,58392,412.16556
+6,Buenos Aires,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),132214,922.54211
+6,Buenos Aires,2002,17,Robos agravados por el resultado de lesiones y/o muertes,9412,65.673576
+6,Buenos Aires,2002,19,Hurtos,81861,571.19684
+6,Buenos Aires,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),114050,786.67328
+6,Buenos Aires,2003,17,Robos agravados por el resultado de lesiones y/o muertes,8067,55.643082
+6,Buenos Aires,2003,19,Hurtos,71278,491.64841
+6,Buenos Aires,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),83750,571.05029
+6,Buenos Aires,2004,17,Robos agravados por el resultado de lesiones y/o muertes,4816,32.837948
+6,Buenos Aires,2004,19,Hurtos,58168,396.61914
+6,Buenos Aires,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),53483,360.49207
+6,Buenos Aires,2005,17,Robos agravados por el resultado de lesiones y/o muertes,3427,23.099047
+6,Buenos Aires,2005,19,Hurtos,38021,256.27338
+6,Buenos Aires,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47334,315.38684
+6,Buenos Aires,2006,17,Robos agravados por el resultado de lesiones y/o muertes,3162,21.068432
+6,Buenos Aires,2006,19,Hurtos,36356,242.24033
+6,Buenos Aires,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47554,313.21878
+6,Buenos Aires,2007,17,Robos agravados por el resultado de lesiones y/o muertes,2726,17.95505
+6,Buenos Aires,2007,19,Hurtos,36348,239.40944
+6,Buenos Aires,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),62360,406.02917
+6,Buenos Aires,2008,17,Robos agravados por el resultado de lesiones y/o muertes,4209,27.405016
+6,Buenos Aires,2008,19,Hurtos,48566,316.21573
+6,Buenos Aires,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),62857,404.57141
+6,Buenos Aires,2009,17,Robos agravados por el resultado de lesiones y/o muertes,361,2.3235326
+6,Buenos Aires,2009,19,Hurtos,47989,308.87537
+6,Buenos Aires,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),71146,452.67075
+6,Buenos Aires,2010,17,Robos agravados por el resultado de lesiones y/o muertes,223,1.418851
+6,Buenos Aires,2010,19,Hurtos,55553,353.45935
+6,Buenos Aires,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),88296,554.98541
+6,Buenos Aires,2011,17,Robos agravados por el resultado de lesiones y/o muertes,265,1.6656603
+6,Buenos Aires,2011,19,Hurtos,57078,358.76437
+6,Buenos Aires,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),93877,583.06458
+6,Buenos Aires,2012,17,Robos agravados por el resultado de lesiones y/o muertes,304,1.8881263
+6,Buenos Aires,2012,19,Hurtos,61747,383.50702
+6,Buenos Aires,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),95327,585.20166
+6,Buenos Aires,2013,17,Robos agravados por el resultado de lesiones y/o muertes,388,2.3818879
+6,Buenos Aires,2013,19,Hurtos,62561,384.05487
+6,Buenos Aires,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),87215,529.34094
+6,Buenos Aires,2014,17,Robos agravados por el resultado de lesiones y/o muertes,1660,10.07517
+6,Buenos Aires,2014,19,Hurtos,55526,337.00836
+6,Buenos Aires,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),80881,485.48221
+6,Buenos Aires,2015,17,Robos agravados por el resultado de lesiones y/o muertes,822,4.9339938
+6,Buenos Aires,2015,19,Hurtos,52057,312.46829
+6,Buenos Aires,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),80833,479.9736
+6,Buenos Aires,2016,17,Robos agravados por el resultado de lesiones y/o muertes,771,4.5780764
+6,Buenos Aires,2016,19,Hurtos,53527,317.83487
+6,Buenos Aires,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),81094,476.462648792492
+6,Buenos Aires,2017,17,Robos agravados por el resultado de lesiones y/o muertes,978,5.746176912213693
+6,Buenos Aires,2017,19,Hurtos,52484,308.3664100824371
+6,Buenos Aires,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),93590,544.2419446493324
+6,Buenos Aires,2018,17,Robos agravados por el resultado de lesiones y/o muertes,1443,8.391293152355878
+6,Buenos Aires,2018,19,Hurtos,63472,369.1005952642635
+6,Buenos Aires,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),143840,828.0875506846689
+6,Buenos Aires,2019,17,Robos agravados por el resultado de lesiones y/o muertes,2022,11.64066342800612
+6,Buenos Aires,2019,19,Hurtos,98805,568.8208456993793
+6,Buenos Aires,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),106234,605.6276498775079
+6,Buenos Aires,2020,17,Robos agravados por el resultado de lesiones y/o muertes,1393,7.941330612415691
+6,Buenos Aires,2020,19,Hurtos,67662,385.7331743698999
+6,Buenos Aires,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),104520,590.1884390599944
+6,Buenos Aires,2021,17,Robos agravados por el resultado de lesiones y/o muertes,2145,12.11207617473869
+6,Buenos Aires,2021,19,Hurtos,72387,408.7444559724054
+6,Buenos Aires,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),95754,550.0139694840298
+6,Buenos Aires,2022,17,Robos agravados por el resultado de lesiones y/o muertes,2381,13.67653843538103
+6,Buenos Aires,2022,19,Hurtos,74870,430.0556206035185
+6,Buenos Aires,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),107769,618.7015162030744
+6,Buenos Aires,2023,17,Robos agravados por el resultado de lesiones y/o muertes,2758,15.83366999497146
+6,Buenos Aires,2023,19,Hurtos,87548,502.6128138940397
+6,Buenos Aires,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),124452,713.95109734442
+6,Buenos Aires,2024,17,Robos agravados por el resultado de lesiones y/o muertes,4131,23.69855030959566
+6,Buenos Aires,2024,19,Hurtos,87827,503.842308893938
+6,Buenos Aires,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),103414,592.855555680404
+6,Buenos Aires,2025,17,Robos agravados por el resultado de lesiones y/o muertes,6439,36.91373433989713
+6,Buenos Aires,2025,19,Hurtos,75431,432.4335913950582
+10,Catamarca,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2093,637.48975
+10,Catamarca,2000,17,Robos agravados por el resultado de lesiones y/o muertes,30,9.137455
+10,Catamarca,2000,19,Hurtos,3136,955.16858
+10,Catamarca,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2305,686.29993
+10,Catamarca,2001,17,Robos agravados por el resultado de lesiones y/o muertes,54,16.078176
+10,Catamarca,2001,19,Hurtos,3086,918.83795
+10,Catamarca,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3413,1003.0358
+10,Catamarca,2002,17,Robos agravados por el resultado de lesiones y/o muertes,8,2.351095
+10,Catamarca,2002,19,Hurtos,4684,1376.566
+10,Catamarca,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3240,939.86053
+10,Catamarca,2003,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2003,19,Hurtos,4476,1298.3999
+10,Catamarca,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3069,878.72504
+10,Catamarca,2004,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.85896879
+10,Catamarca,2004,19,Hurtos,3670,1050.8052
+10,Catamarca,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2784,786.79626
+10,Catamarca,2005,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.28261361
+10,Catamarca,2005,19,Hurtos,4218,1192.0642
+10,Catamarca,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2773,773.53522
+10,Catamarca,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2006,19,Hurtos,5200,1450.5529
+10,Catamarca,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3130,861.81262
+10,Catamarca,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2007,19,Hurtos,4536,1248.9399
+10,Catamarca,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3181,864.50787
+10,Catamarca,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2008,19,Hurtos,3864,1050.1284
+10,Catamarca,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2902,778.46686
+10,Catamarca,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2009,19,Hurtos,4165,1117.2689
+10,Catamarca,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4212,1115.2416
+10,Catamarca,2010,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2010,19,Hurtos,4587,1214.5331
+10,Catamarca,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3424,897.39691
+10,Catamarca,2011,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2011,19,Hurtos,4006,1049.9335
+10,Catamarca,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4730,1227.2709
+10,Catamarca,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2012,19,Hurtos,4144,1075.2241
+10,Catamarca,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6539,1679.8713
+10,Catamarca,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2013,19,Hurtos,4406,1131.903
+10,Catamarca,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6479,1648.2314
+10,Catamarca,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2014,19,Hurtos,4288,1090.8499
+10,Catamarca,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5629,1418.2593
+10,Catamarca,2015,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.25195581
+10,Catamarca,2015,19,Hurtos,4175,1051.9155
+10,Catamarca,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6695,1670.9178
+10,Catamarca,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2016,19,Hurtos,4262,1063.697
+10,Catamarca,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5586,1381.192929360364
+10,Catamarca,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2017,19,Hurtos,3575,883.9535844008774
+10,Catamarca,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5487,1344.352104118074
+10,Catamarca,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2018,19,Hurtos,3330,815.872518081499
+10,Catamarca,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4850,1177.687555849101
+10,Catamarca,2019,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2019,19,Hurtos,3320,806.1696258595905
+10,Catamarca,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3221,775.3262821407767
+10,Catamarca,2020,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2020,19,Hurtos,2475,595.7567675561696
+10,Catamarca,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4042,964.6985257439898
+10,Catamarca,2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2021,19,Hurtos,2925,698.105687234332
+10,Catamarca,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4172,959.6518386809618
+10,Catamarca,2022,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2022,19,Hurtos,3344,769.193611828652
+10,Catamarca,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3299,756.5177709441223
+10,Catamarca,2023,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2023,19,Hurtos,4898,1123.196132793062
+10,Catamarca,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3646,833.356190058239
+10,Catamarca,2024,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2024,19,Hurtos,4997,1142.150543532918
+10,Catamarca,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2176,495.6448850176756
+10,Catamarca,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+10,Catamarca,2025,19,Hurtos,3728,849.1563103611647
+14,Córdoba,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),35597,1145.45
+14,Córdoba,2000,17,Robos agravados por el resultado de lesiones y/o muertes,2262,72.787254
+14,Córdoba,2000,19,Hurtos,25054,806.19446
+14,Córdoba,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),39716,1263.0925
+14,Córdoba,2001,17,Robos agravados por el resultado de lesiones y/o muertes,3325,105.74536
+14,Córdoba,2001,19,Hurtos,27746,882.40924
+14,Córdoba,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),50281,1586.6675
+14,Córdoba,2002,17,Robos agravados por el resultado de lesiones y/o muertes,4658,146.98787
+14,Córdoba,2002,19,Hurtos,32718,1032.4493
+14,Córdoba,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),49729,1557.0553
+14,Córdoba,2003,17,Robos agravados por el resultado de lesiones y/o muertes,3710,116.16311
+14,Córdoba,2003,19,Hurtos,30906,967.69196
+14,Córdoba,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),46102,1432.2747
+14,Córdoba,2004,17,Robos agravados por el resultado de lesiones y/o muertes,1712,53.187588
+14,Córdoba,2004,19,Hurtos,29098,904.00262
+14,Córdoba,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),42368,1306.0411
+14,Córdoba,2005,17,Robos agravados por el resultado de lesiones y/o muertes,2058,63.440159
+14,Córdoba,2005,19,Hurtos,28474,877.74298
+14,Córdoba,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),40989,1253.714
+14,Córdoba,2006,17,Robos agravados por el resultado de lesiones y/o muertes,3098,94.757271
+14,Córdoba,2006,19,Hurtos,27670,846.33112
+14,Córdoba,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),44376,1346.7645
+14,Córdoba,2007,17,Robos agravados por el resultado de lesiones y/o muertes,2347,71.228966
+14,Córdoba,2007,19,Hurtos,25385,770.40784
+14,Córdoba,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),50690,1526.4343
+14,Córdoba,2008,17,Robos agravados por el resultado de lesiones y/o muertes,1317,39.658985
+14,Córdoba,2008,19,Hurtos,24725,744.54706
+14,Córdoba,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),49081,1466.4983
+14,Córdoba,2009,17,Robos agravados por el resultado de lesiones y/o muertes,1211,36.183643
+14,Córdoba,2009,19,Hurtos,23847,712.52795
+14,Córdoba,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),49135,1456.7043
+14,Córdoba,2010,17,Robos agravados por el resultado de lesiones y/o muertes,654,19.389124
+14,Córdoba,2010,19,Hurtos,22477,666.37512
+14,Córdoba,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),51175,1499.9532
+14,Córdoba,2011,17,Robos agravados por el resultado de lesiones y/o muertes,436,12.77928
+14,Córdoba,2011,19,Hurtos,22039,645.96912
+14,Córdoba,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),55396,1605.368
+14,Córdoba,2012,17,Robos agravados por el resultado de lesiones y/o muertes,125,3.6224818
+14,Córdoba,2012,19,Hurtos,16613,481.44232
+14,Córdoba,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),59457,1703.8005
+14,Córdoba,2013,17,Robos agravados por el resultado de lesiones y/o muertes,147,4.2124338
+14,Córdoba,2013,19,Hurtos,4094,117.31772
+14,Córdoba,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),63763,1806.9894
+14,Córdoba,2014,17,Robos agravados por el resultado de lesiones y/o muertes,88,2.4938455
+14,Córdoba,2014,19,Hurtos,27272,772.86536
+14,Córdoba,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),63826,1789.0188
+14,Córdoba,2015,17,Robos agravados por el resultado de lesiones y/o muertes,80,2.2423699
+14,Córdoba,2015,19,Hurtos,24762,694.06952
+14,Córdoba,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),63843,1770.2008
+14,Córdoba,2016,17,Robos agravados por el resultado de lesiones y/o muertes,944,26.174671
+14,Córdoba,2016,19,Hurtos,28046,777.64282
+14,Córdoba,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),60814,1668.275578474433
+14,Córdoba,2017,17,Robos agravados por el resultado de lesiones y/o muertes,383,10.50661930732575
+14,Córdoba,2017,19,Hurtos,29530,810.0795512932881
+14,Córdoba,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),60198,1634.06703209094
+14,Córdoba,2018,17,Robos agravados por el resultado de lesiones y/o muertes,37,1.004360280862566
+14,Córdoba,2018,19,Hurtos,34277,930.4447931655725
+14,Córdoba,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),63746,1712.528597664045
+14,Córdoba,2019,17,Robos agravados por el resultado de lesiones y/o muertes,47,1.262649328431747
+14,Córdoba,2019,19,Hurtos,39567,1062.962680384232
+14,Córdoba,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),41367,1100.054514752224
+14,Córdoba,2020,17,Robos agravados por el resultado de lesiones y/o muertes,219,5.823771091225784
+14,Córdoba,2020,19,Hurtos,26998,717.9459905064554
+14,Córdoba,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),45588,1200.233475266708
+14,Córdoba,2021,17,Robos agravados por el resultado de lesiones y/o muertes,5,0.1316391896186176
+14,Córdoba,2021,19,Hurtos,31696,834.4871508303405
+14,Córdoba,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),51907,1323.063260913672
+14,Córdoba,2022,17,Robos agravados por el resultado de lesiones y/o muertes,5,0.1274455527109708
+14,Córdoba,2022,19,Hurtos,37287,950.4124647867937
+14,Córdoba,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),69980,1778.618655315498
+14,Córdoba,2023,17,Robos agravados por el resultado de lesiones y/o muertes,68,1.728294777957328
+14,Córdoba,2023,19,Hurtos,46456,1180.730326540966
+14,Córdoba,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),68040,1724.151474968002
+14,Córdoba,2024,17,Robos agravados por el resultado de lesiones y/o muertes,34,0.861568932229748
+14,Córdoba,2024,19,Hurtos,48337,1224.872278740863
+14,Córdoba,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),49979,1262.872498619732
+14,Córdoba,2025,17,Robos agravados por el resultado de lesiones y/o muertes,24,0.6064335014080628
+14,Córdoba,2025,19,Hurtos,36327,917.912908568779
+18,Corrientes,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6697,724.21136
+18,Corrientes,2000,17,Robos agravados por el resultado de lesiones y/o muertes,15,1.6220951
+18,Corrientes,2000,19,Hurtos,8368,904.91278
+18,Corrientes,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8722,928.68347
+18,Corrientes,2001,17,Robos agravados por el resultado de lesiones y/o muertes,11,1.1712357
+18,Corrientes,2001,19,Hurtos,8883,945.82611
+18,Corrientes,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10294,1086.3245
+18,Corrientes,2002,17,Robos agravados por el resultado de lesiones y/o muertes,159,16.779249
+18,Corrientes,2002,19,Hurtos,12587,1328.3044
+18,Corrientes,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9193,961.51636
+18,Corrientes,2003,17,Robos agravados por el resultado de lesiones y/o muertes,168,17.571493
+18,Corrientes,2003,19,Hurtos,11297,1181.5784
+18,Corrientes,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7247,751.24524
+18,Corrientes,2004,17,Robos agravados por el resultado de lesiones y/o muertes,293,30.373238
+18,Corrientes,2004,19,Hurtos,9727,1008.3293
+18,Corrientes,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5964,612.7525
+18,Corrientes,2005,17,Robos agravados por el resultado de lesiones y/o muertes,672,69.042542
+18,Corrientes,2005,19,Hurtos,9177,942.86218
+18,Corrientes,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6049,615.96332
+18,Corrientes,2006,17,Robos agravados por el resultado de lesiones y/o muertes,871,88.693016
+18,Corrientes,2006,19,Hurtos,8033,817.99194
+18,Corrientes,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6111,616.74756
+18,Corrientes,2007,17,Robos agravados por el resultado de lesiones y/o muertes,485,48.948219
+18,Corrientes,2007,19,Hurtos,6715,677.70575
+18,Corrientes,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6716,671.78406
+18,Corrientes,2008,17,Robos agravados por el resultado de lesiones y/o muertes,404,40.411072
+18,Corrientes,2008,19,Hurtos,6136,613.76819
+18,Corrientes,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7970,790.13531
+18,Corrientes,2009,17,Robos agravados por el resultado de lesiones y/o muertes,65,6.4440145
+18,Corrientes,2009,19,Hurtos,5464,541.69379
+18,Corrientes,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7197,707.16132
+18,Corrientes,2010,17,Robos agravados por el resultado de lesiones y/o muertes,311,30.558172
+18,Corrientes,2010,19,Hurtos,5441,534.62067
+18,Corrientes,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6237,606.56573
+18,Corrientes,2011,17,Robos agravados por el resultado de lesiones y/o muertes,167,16.241219
+18,Corrientes,2011,19,Hurtos,4688,455.92114
+18,Corrientes,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6540,629.58105
+18,Corrientes,2012,17,Robos agravados por el resultado de lesiones y/o muertes,145,13.958602
+18,Corrientes,2012,19,Hurtos,4595,442.34326
+18,Corrientes,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6815,649.46515
+18,Corrientes,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+18,Corrientes,2013,19,Hurtos,3087,294.18912
+18,Corrientes,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7136,673.31171
+18,Corrientes,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+18,Corrientes,2014,19,Hurtos,2797,263.90875
+18,Corrientes,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5517,515.47113
+18,Corrientes,2015,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.093433231
+18,Corrientes,2015,19,Hurtos,2959,276.46893
+18,Corrientes,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5799,536.61902
+18,Corrientes,2016,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.092536472
+18,Corrientes,2016,19,Hurtos,2467,228.28748
+18,Corrientes,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5414,496.2701821735058
+18,Corrientes,2017,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.09166423756437121
+18,Corrientes,2017,19,Hurtos,2536,232.4605064632454
+18,Corrientes,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5614,509.8611913350843
+18,Corrientes,2018,17,Robos agravados por el resultado de lesiones y/o muertes,22,1.998031031238307
+18,Corrientes,2018,19,Hurtos,2753,250.0263376817754
+18,Corrientes,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5376,483.8657416574562
+18,Corrientes,2019,17,Robos agravados por el resultado de lesiones y/o muertes,73,6.570349542595666
+18,Corrientes,2019,19,Hurtos,3482,313.3966727029878
+18,Corrientes,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4598,410.2423177709513
+18,Corrientes,2020,17,Robos agravados por el resultado de lesiones y/o muertes,79,7.048530470618782
+18,Corrientes,2020,19,Hurtos,3045,271.6806997852429
+18,Corrientes,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5734,507.2899709816689
+18,Corrientes,2021,17,Robos agravados por el resultado de lesiones y/o muertes,33,2.919527213532451
+18,Corrientes,2021,19,Hurtos,3721,329.1988109561894
+18,Corrientes,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6003,504.8716794994176
+18,Corrientes,2022,17,Robos agravados por el resultado de lesiones y/o muertes,46,3.868748501911246
+18,Corrientes,2022,19,Hurtos,4286,360.4664365041652
+18,Corrientes,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6664,558.1379766660804
+18,Corrientes,2023,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+18,Corrientes,2023,19,Hurtos,4471,374.4650200591305
+18,Corrientes,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5905,492.4444592701314
+18,Corrientes,2024,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+18,Corrientes,2024,19,Hurtos,3768,314.230435652812
+18,Corrientes,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4712,391.3930085845644
+18,Corrientes,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+18,Corrientes,2025,19,Hurtos,3515,291.966558823163
+22,Chaco,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7954,814.78955
+22,Chaco,2000,17,Robos agravados por el resultado de lesiones y/o muertes,19,1.9463165
+22,Chaco,2000,19,Hurtos,17746,1817.8596
+22,Chaco,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10361,1045.0309
+22,Chaco,2001,17,Robos agravados por el resultado de lesiones y/o muertes,11,1.1094816
+22,Chaco,2001,19,Hurtos,20103,2027.6281
+22,Chaco,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12021,1200.9902
+22,Chaco,2002,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.099907689
+22,Chaco,2002,19,Hurtos,24440,2441.7439
+22,Chaco,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8544,845.53455
+22,Chaco,2003,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2003,19,Hurtos,18032,1784.4896
+22,Chaco,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7991,783.32617
+22,Chaco,2004,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2004,19,Hurtos,15733,1542.2439
+22,Chaco,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7422,720.66577
+22,Chaco,2005,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2005,19,Hurtos,13995,1358.8949
+22,Chaco,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7225,694.89929
+22,Chaco,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2006,19,Hurtos,12570,1208.9805
+22,Chaco,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6547,623.73175
+22,Chaco,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2007,19,Hurtos,10534,1003.5726
+22,Chaco,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7049,665.20331
+22,Chaco,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2008,19,Hurtos,9204,868.56738
+22,Chaco,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6487,606.37616
+22,Chaco,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2009,19,Hurtos,7540,704.80597
+22,Chaco,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6242,577.95386
+22,Chaco,2010,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2010,19,Hurtos,6728,622.95319
+22,Chaco,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5418,495.87003
+22,Chaco,2011,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2011,19,Hurtos,6648,608.44299
+22,Chaco,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6654,602.01941
+22,Chaco,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2012,19,Hurtos,7670,693.94183
+22,Chaco,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7517,672.38965
+22,Chaco,2013,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.089449197
+22,Chaco,2013,19,Hurtos,9242,826.68951
+22,Chaco,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7740,684.5874
+22,Chaco,2014,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.088447988
+22,Chaco,2014,19,Hurtos,9783,865.28662
+22,Chaco,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5755,503.41104
+22,Chaco,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2015,19,Hurtos,7197,629.5481
+22,Chaco,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5998,518.98248
+22,Chaco,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2016,19,Hurtos,7945,687.44849
+22,Chaco,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5624,481.4388378354085
+22,Chaco,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2017,19,Hurtos,7832,670.4532322060668
+22,Chaco,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6221,526.9903606762351
+22,Chaco,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2018,19,Hurtos,8812,746.4779068122463
+22,Chaco,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5937,497.8132106226984
+22,Chaco,2019,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.08384928593948093
+22,Chaco,2019,19,Hurtos,7937,665.5117825016603
+22,Chaco,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4392,364.6202163313661
+22,Chaco,2020,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.08301917493883562
+22,Chaco,2020,19,Hurtos,5899,489.7301129641913
+22,Chaco,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4416,363.0841432702404
+22,Chaco,2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2021,19,Hurtos,6874,565.181250190134
+22,Chaco,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4112,345.3294444579747
+22,Chaco,2022,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2022,19,Hurtos,7097,596.0124190949043
+22,Chaco,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5227,437.5409645321442
+22,Chaco,2023,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+22,Chaco,2023,19,Hurtos,8020,671.3370069921172
+22,Chaco,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5316,442.6867990896441
+22,Chaco,2024,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.2498232500505892
+22,Chaco,2024,19,Hurtos,8135,677.4373797205144
+22,Chaco,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3630,300.5942325655345
+22,Chaco,2025,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.1656166570609006
+22,Chaco,2025,19,Hurtos,5957,493.2892130558923
+26,Chubut,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2638,630.948
+26,Chubut,2000,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2000,19,Hurtos,1855,443.6727
+26,Chubut,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2640,620.62885
+26,Chubut,2001,17,Robos agravados por el resultado de lesiones y/o muertes,4,0.94034678
+26,Chubut,2001,19,Hurtos,1840,432.55951
+26,Chubut,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3329,766.41321
+26,Chubut,2002,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2002,19,Hurtos,2163,497.97287
+26,Chubut,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4588,1034.412
+26,Chubut,2003,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2003,19,Hurtos,2681,604.45917
+26,Chubut,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4269,942.57764
+26,Chubut,2004,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.22079588
+26,Chubut,2004,19,Hurtos,2366,522.40308
+26,Chubut,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3891,841.34277
+26,Chubut,2005,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.43245581
+26,Chubut,2005,19,Hurtos,2111,456.45709
+26,Chubut,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3964,839.39478
+26,Chubut,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2006,19,Hurtos,2404,509.0578
+26,Chubut,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4429,918.45856
+26,Chubut,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2007,19,Hurtos,2423,502.46671
+26,Chubut,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4097,832.03192
+26,Chubut,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2008,19,Hurtos,2120,430.53641
+26,Chubut,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4877,969.94696
+26,Chubut,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2009,19,Hurtos,2607,518.48505
+26,Chubut,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4747,924.56073
+26,Chubut,2010,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.58430213
+26,Chubut,2010,19,Hurtos,2498,486.5289
+26,Chubut,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4281,816.67145
+26,Chubut,2011,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.57229954
+26,Chubut,2011,19,Hurtos,2090,398.70203
+26,Chubut,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4023,752.03992
+26,Chubut,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+26,Chubut,2012,19,Hurtos,1712,320.0329
+26,Chubut,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5567,1020.2399
+26,Chubut,2013,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.54979694
+26,Chubut,2013,19,Hurtos,2997,549.24713
+26,Chubut,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5665,1018.3007
+26,Chubut,2014,17,Robos agravados por el resultado de lesiones y/o muertes,20,3.5950596
+26,Chubut,2014,19,Hurtos,3107,558.49249
+26,Chubut,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4959,874.72351
+26,Chubut,2015,17,Robos agravados por el resultado de lesiones y/o muertes,50,8.8195553
+26,Chubut,2015,19,Hurtos,2718,479.43103
+26,Chubut,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4777,827.23486
+26,Chubut,2016,17,Robos agravados por el resultado de lesiones y/o muertes,18,3.1170666
+26,Chubut,2016,19,Hurtos,2929,507.216
+26,Chubut,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4324,735.429181775507
+26,Chubut,2017,17,Robos agravados por el resultado de lesiones y/o muertes,100,17.00807543421616
+26,Chubut,2017,19,Hurtos,2889,491.363299294505
+26,Chubut,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4046,676.1589625321702
+26,Chubut,2018,17,Robos agravados por el resultado de lesiones y/o muertes,307,51.30519068150673
+26,Chubut,2018,19,Hurtos,3321,554.9984959390354
+26,Chubut,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4465,733.4955292092212
+26,Chubut,2019,17,Robos agravados por el resultado de lesiones y/o muertes,48,7.885282284891964
+26,Chubut,2019,19,Hurtos,3569,586.3035932245712
+26,Chubut,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3150,508.8902315692882
+26,Chubut,2020,17,Robos agravados por el resultado de lesiones y/o muertes,118,19.06318962704
+26,Chubut,2020,19,Hurtos,2910,470.1176424973425
+26,Chubut,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3480,553.0999823580178
+26,Chubut,2021,17,Robos agravados por el resultado de lesiones y/o muertes,184,29.24436688329749
+26,Chubut,2021,19,Hurtos,3848,611.5887161246128
+26,Chubut,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3910,654.5400976955501
+26,Chubut,2022,17,Robos agravados por el resultado de lesiones y/o muertes,164,27.45385576012026
+26,Chubut,2022,19,Hurtos,4004,670.2758442897654
+26,Chubut,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4696,784.0439705749767
+26,Chubut,2023,17,Robos agravados por el resultado de lesiones y/o muertes,209,34.89463156945701
+26,Chubut,2023,19,Hurtos,5089,849.659234722329
+26,Chubut,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4117,685.39673766469
+26,Chubut,2024,17,Robos agravados por el resultado de lesiones y/o muertes,178,29.63337850481293
+26,Chubut,2024,19,Hurtos,4777,795.2733096488278
+26,Chubut,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2949,489.584094244523
+26,Chubut,2025,17,Robos agravados por el resultado de lesiones y/o muertes,141,23.40839514699144
+26,Chubut,2025,19,Hurtos,3659,607.4561549137708
+30,Entre Ríos,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4853,418.81265
+30,Entre Ríos,2000,17,Robos agravados por el resultado de lesiones y/o muertes,1155,99.676201
+30,Entre Ríos,2000,19,Hurtos,5251,453.15994
+30,Entre Ríos,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5099,434.49994
+30,Entre Ríos,2001,17,Robos agravados por el resultado de lesiones y/o muertes,939,80.014793
+30,Entre Ríos,2001,19,Hurtos,5485,467.39206
+30,Entre Ríos,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7582,641.25061
+30,Entre Ríos,2002,17,Robos agravados por el resultado de lesiones y/o muertes,343,29.009359
+30,Entre Ríos,2002,19,Hurtos,7493,633.72345
+30,Entre Ríos,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7776,652.73889
+30,Entre Ríos,2003,17,Robos agravados por el resultado de lesiones y/o muertes,34,2.8540537
+30,Entre Ríos,2003,19,Hurtos,6808,571.4823
+30,Entre Ríos,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7197,599.61707
+30,Entre Ríos,2004,17,Robos agravados por el resultado de lesiones y/o muertes,26,2.1661866
+30,Entre Ríos,2004,19,Hurtos,6614,551.04449
+30,Entre Ríos,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6523,539.39758
+30,Entre Ríos,2005,17,Robos agravados por el resultado de lesiones y/o muertes,41,3.3903575
+30,Entre Ríos,2005,19,Hurtos,5983,494.74411
+30,Entre Ríos,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6146,504.42126
+30,Entre Ríos,2006,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.0820731
+30,Entre Ríos,2006,19,Hurtos,5319,436.54681
+30,Entre Ríos,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6322,514.9848
+30,Entre Ríos,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2007,19,Hurtos,5107,416.01193
+30,Entre Ríos,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6451,521.56226
+30,Entre Ríos,2008,17,Robos agravados por el resultado de lesiones y/o muertes,32,2.5871944
+30,Entre Ríos,2008,19,Hurtos,5225,422.44037
+30,Entre Ríos,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6552,525.76587
+30,Entre Ríos,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2009,19,Hurtos,4990,400.42307
+30,Entre Ríos,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5946,473.56827
+30,Entre Ríos,2010,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.079644851
+30,Entre Ríos,2010,19,Hurtos,4786,381.18024
+30,Entre Ríos,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5330,420.10049
+30,Entre Ríos,2011,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2011,19,Hurtos,5082,400.55362
+30,Entre Ríos,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6437,502.13312
+30,Entre Ríos,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2012,19,Hurtos,5480,427.4801
+30,Entre Ríos,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5855,452.0813
+30,Entre Ríos,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2013,19,Hurtos,4757,367.30157
+30,Entre Ríos,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6436,491.93985
+30,Entre Ríos,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2014,19,Hurtos,5249,401.21075
+30,Entre Ríos,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6681,505.59439
+30,Entre Ríos,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2015,19,Hurtos,5421,410.24207
+30,Entre Ríos,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6125,458.97717
+30,Entre Ríos,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+30,Entre Ríos,2016,19,Hurtos,6037,452.3829
+30,Entre Ríos,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7135,529.4959287811279
+30,Entre Ríos,2017,17,Robos agravados por el resultado de lesiones y/o muertes,10,0.7421106219777545
+30,Entre Ríos,2017,19,Hurtos,7082,525.5627424846457
+30,Entre Ríos,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8728,641.5557285384247
+30,Entre Ríos,2018,17,Robos agravados por el resultado de lesiones y/o muertes,139,10.21726011306611
+30,Entre Ríos,2018,19,Hurtos,9008,662.1372597014355
+30,Entre Ríos,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9329,679.3274447122561
+30,Entre Ríos,2019,17,Robos agravados por el resultado de lesiones y/o muertes,81,5.898330262803382
+30,Entre Ríos,2019,19,Hurtos,9309,677.8710668695886
+30,Entre Ríos,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6779,489.1191021969593
+30,Entre Ríos,2020,17,Robos agravados por el resultado de lesiones y/o muertes,69,4.978495065878477
+30,Entre Ríos,2020,19,Hurtos,6964,502.467241141706
+30,Entre Ríos,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6618,473.2179247913851
+30,Entre Ríos,2021,17,Robos agravados por el resultado de lesiones y/o muertes,128,9.152598122287293
+30,Entre Ríos,2021,19,Hurtos,7841,560.6681396629269
+30,Entre Ríos,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8040,554.5642221926392
+30,Entre Ríos,2022,17,Robos agravados por el resultado de lesiones y/o muertes,216,14.8987402977127
+30,Entre Ríos,2022,19,Hurtos,9340,644.2325665770213
+30,Entre Ríos,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9347,643.4132913339863
+30,Entre Ríos,2023,17,Robos agravados por el resultado de lesiones y/o muertes,187,12.8723960072168
+30,Entre Ríos,2023,19,Hurtos,10813,744.3273691231833
+30,Entre Ríos,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9649,662.6992166976302
+30,Entre Ríos,2024,17,Robos agravados por el resultado de lesiones y/o muertes,79,5.425768278486141
+30,Entre Ríos,2024,19,Hurtos,11615,797.725298159703
+30,Entre Ríos,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6966,477.3907572873021
+30,Entre Ríos,2025,17,Robos agravados por el resultado de lesiones y/o muertes,45,3.083919620719006
+30,Entre Ríos,2025,19,Hurtos,8957,613.8370676173363
+34,Formosa,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1659,345.66245
+34,Formosa,2000,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.2083559
+34,Formosa,2000,19,Hurtos,2975,619.85883
+34,Formosa,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1981,404.56396
+34,Formosa,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+34,Formosa,2001,19,Hurtos,3581,731.31927
+34,Formosa,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2413,486.30664
+34,Formosa,2002,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.40307221
+34,Formosa,2002,19,Hurtos,4849,977.2486
+34,Formosa,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2082,414.0795
+34,Formosa,2003,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+34,Formosa,2003,19,Hurtos,4262,847.64978
+34,Formosa,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1744,342.29434
+34,Formosa,2004,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+34,Formosa,2004,19,Hurtos,4246,833.36115
+34,Formosa,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1464,283.55991
+34,Formosa,2005,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.19368847
+34,Formosa,2005,19,Hurtos,3744,725.16962
+34,Formosa,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1580,302.00278
+34,Formosa,2006,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.38228199
+34,Formosa,2006,19,Hurtos,3493,667.65552
+34,Formosa,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1558,293.88132
+34,Formosa,2007,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.18862729
+34,Formosa,2007,19,Hurtos,2975,561.1662
+34,Formosa,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1615,300.62677
+34,Formosa,2008,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.1861466
+34,Formosa,2008,19,Hurtos,3110,578.91589
+34,Formosa,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1814,333.22864
+34,Formosa,2009,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.18369825
+34,Formosa,2009,19,Hurtos,3435,631.00348
+34,Formosa,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1785,323.58881
+34,Formosa,2010,17,Robos agravados por el resultado de lesiones y/o muertes,7,1.2689757
+34,Formosa,2010,19,Hurtos,3186,577.56525
+34,Formosa,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1638,293.9577
+34,Formosa,2011,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.17946136
+34,Formosa,2011,19,Hurtos,2774,497.82584
+34,Formosa,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1959,348.08475
+34,Formosa,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+34,Formosa,2012,19,Hurtos,3320,589.91388
+34,Formosa,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2301,404.86969
+34,Formosa,2013,17,Robos agravados por el resultado de lesiones y/o muertes,40,7.0381522
+34,Formosa,2013,19,Hurtos,3911,688.15533
+34,Formosa,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3033,528.56018
+34,Formosa,2014,17,Robos agravados por el resultado de lesiones y/o muertes,136,23.700687
+34,Formosa,2014,19,Hurtos,4317,752.32257
+34,Formosa,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2992,516.52997
+34,Formosa,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+34,Formosa,2015,19,Hurtos,3693,637.54858
+34,Formosa,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3741,639.90942
+34,Formosa,2016,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.17105304
+34,Formosa,2016,19,Hurtos,3531,603.98828
+34,Formosa,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3343,566.6908509008063
+34,Formosa,2017,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.1695156598566576
+34,Formosa,2017,19,Hurtos,3587,608.0526719058307
+34,Formosa,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3088,518.8791001614776
+34,Formosa,2018,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.3360615933688326
+34,Formosa,2018,19,Hurtos,4325,726.7331956601006
+34,Formosa,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2946,490.8126731630761
+34,Formosa,2019,17,Robos agravados por el resultado de lesiones y/o muertes,7,1.166221558771735
+34,Formosa,2019,19,Hurtos,4846,807.3585248296899
+34,Formosa,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2116,349.640527897712
+34,Formosa,2020,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.3304730887502004
+34,Formosa,2020,19,Hurtos,3639,601.2957849809895
+34,Formosa,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2307,378.1849417805019
+34,Formosa,2021,17,Robos agravados por el resultado de lesiones y/o muertes,6,0.9835759214057267
+34,Formosa,2021,19,Hurtos,4237,694.5685298326773
+34,Formosa,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2825,455.2765341610502
+34,Formosa,2022,17,Robos agravados por el resultado de lesiones y/o muertes,35,5.640594228543986
+34,Formosa,2022,19,Hurtos,4525,729.2482538331866
+34,Formosa,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3327,534.5196552854305
+34,Formosa,2023,17,Robos agravados por el resultado de lesiones y/o muertes,26,4.177189972173489
+34,Formosa,2023,19,Hurtos,5337,857.4485723649964
+34,Formosa,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4063,650.6411128957612
+34,Formosa,2024,17,Robos agravados por el resultado de lesiones y/o muertes,24,3.843314474402725
+34,Formosa,2024,19,Hurtos,6057,969.9564904773877
+34,Formosa,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3191,509.2164832306443
+34,Formosa,2025,17,Robos agravados por el resultado de lesiones y/o muertes,22,3.510737270784762
+34,Formosa,2025,19,Hurtos,5385,859.3327365079973
+38,Jujuy,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2980,491.54071
+38,Jujuy,2000,17,Robos agravados por el resultado de lesiones y/o muertes,83,13.690563
+38,Jujuy,2000,19,Hurtos,5172,853.10358
+38,Jujuy,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3623,587.13617
+38,Jujuy,2001,17,Robos agravados por el resultado de lesiones y/o muertes,67,10.857886
+38,Jujuy,2001,19,Hurtos,6367,1031.8234
+38,Jujuy,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4577,733.35846
+38,Jujuy,2002,17,Robos agravados por el resultado de lesiones y/o muertes,6,0.96136129
+38,Jujuy,2002,19,Hurtos,7401,1185.8391
+38,Jujuy,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4735,750.10138
+38,Jujuy,2003,17,Robos agravados por el resultado de lesiones y/o muertes,77,12.198058
+38,Jujuy,2003,19,Hurtos,7180,1137.4293
+38,Jujuy,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6745,1056.4451
+38,Jujuy,2004,17,Robos agravados por el resultado de lesiones y/o muertes,79,12.373485
+38,Jujuy,2004,19,Hurtos,8599,1346.8303
+38,Jujuy,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6022,932.54602
+38,Jujuy,2005,17,Robos agravados por el resultado de lesiones y/o muertes,21,3.2519872
+38,Jujuy,2005,19,Hurtos,8243,1276.4824
+38,Jujuy,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5918,906.08582
+38,Jujuy,2006,17,Robos agravados por el resultado de lesiones y/o muertes,44,6.7366977
+38,Jujuy,2006,19,Hurtos,7059,1080.7806
+38,Jujuy,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6266,948.52588
+38,Jujuy,2007,17,Robos agravados por el resultado de lesiones y/o muertes,7,1.0596364
+38,Jujuy,2007,19,Hurtos,6253,946.55798
+38,Jujuy,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7356,1100.9438
+38,Jujuy,2008,17,Robos agravados por el resultado de lesiones y/o muertes,7,1.0476626
+38,Jujuy,2008,19,Hurtos,6341,949.03271
+38,Jujuy,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6944,1027.5381
+38,Jujuy,2009,17,Robos agravados por el resultado de lesiones y/o muertes,31,4.587224
+38,Jujuy,2009,19,Hurtos,5984,885.48218
+38,Jujuy,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6939,1015.1965
+38,Jujuy,2010,17,Robos agravados por el resultado de lesiones y/o muertes,40,5.8521199
+38,Jujuy,2010,19,Hurtos,5239,766.48138
+38,Jujuy,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6598,952.94629
+38,Jujuy,2011,17,Robos agravados por el resultado de lesiones y/o muertes,35,5.0550351
+38,Jujuy,2011,19,Hurtos,4750,686.04047
+38,Jujuy,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6983,995.79041
+38,Jujuy,2012,17,Robos agravados por el resultado de lesiones y/o muertes,71,10.124748
+38,Jujuy,2012,19,Hurtos,4754,677.93036
+38,Jujuy,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6237,878.30103
+38,Jujuy,2013,17,Robos agravados por el resultado de lesiones y/o muertes,64,9.0125484
+38,Jujuy,2013,19,Hurtos,3808,536.24664
+38,Jujuy,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9176,1276.2684
+38,Jujuy,2014,17,Robos agravados por el resultado de lesiones y/o muertes,212,29.486586
+38,Jujuy,2014,19,Hurtos,5371,747.03986
+38,Jujuy,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8231,1130.9736
+38,Jujuy,2015,17,Robos agravados por el resultado de lesiones y/o muertes,45,6.183187
+38,Jujuy,2015,19,Hurtos,5266,723.57031
+38,Jujuy,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7763,1053.9792
+38,Jujuy,2016,17,Robos agravados por el resultado de lesiones y/o muertes,124,16.835428
+38,Jujuy,2016,19,Hurtos,5796,786.92047
+38,Jujuy,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7361,987.719590152056
+38,Jujuy,2017,17,Robos agravados por el resultado de lesiones y/o muertes,49,6.574957195686828
+38,Jujuy,2017,19,Hurtos,4745,636.6973855823265
+38,Jujuy,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6477,859.1427673231277
+38,Jujuy,2018,17,Robos agravados por el resultado de lesiones y/o muertes,48,6.366968169138509
+38,Jujuy,2018,19,Hurtos,4712,625.024041937097
+38,Jujuy,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6443,845.0501023031321
+38,Jujuy,2019,17,Robos agravados por el resultado de lesiones y/o muertes,374,49.05304023923194
+38,Jujuy,2019,19,Hurtos,5541,726.7457111379256
+38,Jujuy,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4418,573.1105060314109
+38,Jujuy,2020,17,Robos agravados por el resultado de lesiones y/o muertes,320,41.51094656633125
+38,Jujuy,2020,19,Hurtos,4642,602.1681686278426
+38,Jujuy,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4914,630.6371051780517
+38,Jujuy,2021,17,Robos agravados por el resultado de lesiones y/o muertes,459,58.90566367047735
+38,Jujuy,2021,19,Hurtos,5518,708.1513118381134
+38,Jujuy,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4602,578.597184713568
+38,Jujuy,2022,17,Robos agravados por el resultado de lesiones y/o muertes,502,63.11512097483945
+38,Jujuy,2022,19,Hurtos,6395,804.0262920997974
+38,Jujuy,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4616,579.2692874335207
+38,Jujuy,2023,17,Robos agravados por el resultado de lesiones y/o muertes,595,74.66750997030869
+38,Jujuy,2023,19,Hurtos,7189,902.1592087000826
+38,Jujuy,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4888,612.0151801801238
+38,Jujuy,2024,17,Robos agravados por el resultado de lesiones y/o muertes,533,66.73569783879009
+38,Jujuy,2024,19,Hurtos,8331,1043.105250834822
+38,Jujuy,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4053,506.1542765228338
+38,Jujuy,2025,17,Robos agravados por el resultado de lesiones y/o muertes,499,62.31704514801235
+38,Jujuy,2025,19,Hurtos,6426,802.5036715854255
+42,La Pampa,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2370,786.5575
+42,La Pampa,2000,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.33188081
+42,La Pampa,2000,19,Hurtos,5505,1827.0038
+42,La Pampa,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2258,737.81927
+42,La Pampa,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2001,19,Hurtos,5031,1643.9188
+42,La Pampa,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2700,875.76752
+42,La Pampa,2002,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2002,19,Hurtos,6786,2201.0957
+42,La Pampa,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2561,824.58093
+42,La Pampa,2003,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.32197616
+42,La Pampa,2003,19,Hurtos,5647,1818.1993
+42,La Pampa,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2214,707.61951
+42,La Pampa,2004,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2004,19,Hurtos,5012,1601.8921
+42,La Pampa,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1679,532.6861
+42,La Pampa,2005,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2005,19,Hurtos,3697,1172.9247
+42,La Pampa,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1687,531.2934
+42,La Pampa,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2006,19,Hurtos,3295,1037.707
+42,La Pampa,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1789,559.27924
+42,La Pampa,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2007,19,Hurtos,2956,924.10809
+42,La Pampa,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1889,586.20538
+42,La Pampa,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2008,19,Hurtos,3275,1016.317
+42,La Pampa,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2554,786.75153
+42,La Pampa,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2009,19,Hurtos,3467,1067.9983
+42,La Pampa,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2179,666.30383
+42,La Pampa,2010,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2010,19,Hurtos,3532,1080.0298
+42,La Pampa,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2256,683.0816
+42,La Pampa,2011,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2011,19,Hurtos,3568,1080.3347
+42,La Pampa,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2675,802.10858
+42,La Pampa,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2012,19,Hurtos,4049,1214.1075
+42,La Pampa,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2614,776.34497
+42,La Pampa,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2013,19,Hurtos,3813,1132.4419
+42,La Pampa,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2933,862.91357
+42,La Pampa,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2014,19,Hurtos,4018,1182.1298
+42,La Pampa,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2389,696.38776
+42,La Pampa,2015,17,Robos agravados por el resultado de lesiones y/o muertes,9,2.6234784
+42,La Pampa,2015,19,Hurtos,3321,968.06354
+42,La Pampa,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1735,501.16843
+42,La Pampa,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2016,19,Hurtos,3013,870.3288
+42,La Pampa,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1534,439.1652996429992
+42,La Pampa,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2017,19,Hurtos,2790,798.7426245136687
+42,La Pampa,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1451,411.7737202663049
+42,La Pampa,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2018,19,Hurtos,2115,600.2077314701826
+42,La Pampa,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),838,235.7760633838085
+42,La Pampa,2019,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2019,19,Hurtos,1526,429.3487741332838
+42,La Pampa,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),411,114.6673808965817
+42,La Pampa,2020,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2020,19,Hurtos,812,226.5448011874072
+42,La Pampa,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),582,161.0430721041301
+42,La Pampa,2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2021,19,Hurtos,1338,370.2330420538249
+42,La Pampa,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),665,177.8188974693563
+42,La Pampa,2022,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2022,19,Hurtos,1957,523.2956125526772
+42,La Pampa,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),940,250.7034365040206
+42,La Pampa,2023,17,Robos agravados por el resultado de lesiones y/o muertes,5,1.333528917574578
+42,La Pampa,2023,19,Hurtos,2376,633.6929416314392
+42,La Pampa,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1054,280.413863193153
+42,La Pampa,2024,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+42,La Pampa,2024,19,Hurtos,2954,785.9037494047192
+42,La Pampa,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),834,221.3411041577095
+42,La Pampa,2025,17,Robos agravados por el resultado de lesiones y/o muertes,30,7.961910221500343
+42,La Pampa,2025,19,Hurtos,2421,642.5261548750776
+46,La Rioja,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),685,239.02576
+46,La Rioja,2000,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2000,19,Hurtos,1947,679.39142
+46,La Rioja,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),838,284.45639
+46,La Rioja,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2001,19,Hurtos,2092,710.12262
+46,La Rioja,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1222,407.90714
+46,La Rioja,2002,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.33380288
+46,La Rioja,2002,19,Hurtos,2720,907.94385
+46,La Rioja,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1504,493.69101
+46,La Rioja,2003,17,Robos agravados por el resultado de lesiones y/o muertes,10,3.2825198
+46,La Rioja,2003,19,Hurtos,3013,989.02325
+46,La Rioja,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1718,554.5603
+46,La Rioja,2004,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.32279411
+46,La Rioja,2004,19,Hurtos,2855,921.57715
+46,La Rioja,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1731,549.46625
+46,La Rioja,2005,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.31742707
+46,La Rioja,2005,19,Hurtos,2386,757.38098
+46,La Rioja,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1525,476.02844
+46,La Rioja,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2006,19,Hurtos,2050,639.9071
+46,La Rioja,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1108,340.11099
+46,La Rioja,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2007,19,Hurtos,1602,491.74893
+46,La Rioja,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1172,353.77499
+46,La Rioja,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2008,19,Hurtos,1811,546.66089
+46,La Rioja,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1180,350.26685
+46,La Rioja,2009,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2009,19,Hurtos,1596,473.75076
+46,La Rioja,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1041,303.86887
+46,La Rioja,2010,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2010,19,Hurtos,1510,440.77039
+46,La Rioja,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1040,299.28574
+46,La Rioja,2011,17,Robos agravados por el resultado de lesiones y/o muertes,4,1.151099
+46,La Rioja,2011,19,Hurtos,1375,395.69028
+46,La Rioja,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1064,301.86453
+46,La Rioja,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2012,19,Hurtos,1464,415.34744
+46,La Rioja,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1093,305.72058
+46,La Rioja,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2013,19,Hurtos,1523,425.99493
+46,La Rioja,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1303,359.34418
+46,La Rioja,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2014,19,Hurtos,2072,571.42072
+46,La Rioja,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1533,416.88422
+46,La Rioja,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2015,19,Hurtos,1923,522.94086
+46,La Rioja,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1406,377.06601
+46,La Rioja,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2016,19,Hurtos,1751,469.58932
+46,La Rioja,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2062,545.4348268866041
+46,La Rioja,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2017,19,Hurtos,2104,556.5445566292021
+46,La Rioja,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2736,713.9502113668389
+46,La Rioja,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2018,19,Hurtos,2445,638.014717394708
+46,La Rioja,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2822,726.5967362366305
+46,La Rioja,2019,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2019,19,Hurtos,2716,699.3043003609811
+46,La Rioja,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1945,494.2431472997045
+46,La Rioja,2020,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.2541095873006193
+46,La Rioja,2020,19,Hurtos,2555,649.2499955530823
+46,La Rioja,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1624,407.3769340370452
+46,La Rioja,2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2021,19,Hurtos,2311,579.7094178322731
+46,La Rioja,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1810,454.1827470779237
+46,La Rioja,2022,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2022,19,Hurtos,2331,584.9171179219006
+46,La Rioja,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1729,432.145204787839
+46,La Rioja,2023,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2023,19,Hurtos,2458,614.3510198776796
+46,La Rioja,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1887,469.5863807506912
+46,La Rioja,2024,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2024,19,Hurtos,2760,686.8354058674656
+46,La Rioja,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1694,419.7464176600748
+46,La Rioja,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+46,La Rioja,2025,19,Hurtos,2539,629.1240581103482
+50,Mendoza,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),30568,1926.2726
+50,Mendoza,2000,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2000,19,Hurtos,23536,1483.1442
+50,Mendoza,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29662,1846.9214
+50,Mendoza,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2001,19,Hurtos,23153,1441.6348
+50,Mendoza,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),37413,2303.8298
+50,Mendoza,2002,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2002,19,Hurtos,25972,1599.3123
+50,Mendoza,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),34108,2077.1306
+50,Mendoza,2003,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2003,19,Hurtos,23249,1415.8323
+50,Mendoza,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),31765,1913.0933
+50,Mendoza,2004,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2004,19,Hurtos,22746,1369.9109
+50,Mendoza,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),32620,1942.903
+50,Mendoza,2005,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2005,19,Hurtos,24717,1472.1868
+50,Mendoza,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),33802,1991.083
+50,Mendoza,2006,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2006,19,Hurtos,26095,1537.1077
+50,Mendoza,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),33206,1934.3861
+50,Mendoza,2007,17,Robos agravados por el resultado de lesiones y/o muertes,1605,93.497849
+50,Mendoza,2007,19,Hurtos,24886,1449.7118
+50,Mendoza,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),33004,1901.3975
+50,Mendoza,2008,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+50,Mendoza,2008,19,Hurtos,23601,1359.6801
+50,Mendoza,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),36580,2084.1548
+50,Mendoza,2009,17,Robos agravados por el resultado de lesiones y/o muertes,2258,128.65012
+50,Mendoza,2009,19,Hurtos,27150,1546.8781
+50,Mendoza,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),34396,1938.09
+50,Mendoza,2010,17,Robos agravados por el resultado de lesiones y/o muertes,2071,116.69334
+50,Mendoza,2010,19,Hurtos,25782,1452.7223
+50,Mendoza,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),36726,2043.4723
+50,Mendoza,2011,17,Robos agravados por el resultado de lesiones y/o muertes,1937,107.77666
+50,Mendoza,2011,19,Hurtos,27517,1531.0741
+50,Mendoza,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),43532,2392.3833
+50,Mendoza,2012,17,Robos agravados por el resultado de lesiones y/o muertes,2286,125.63145
+50,Mendoza,2012,19,Hurtos,28877,1586.9901
+50,Mendoza,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),42936,2331.1814
+50,Mendoza,2013,17,Robos agravados por el resultado de lesiones y/o muertes,2790,151.48117
+50,Mendoza,2013,19,Hurtos,30195,1639.4172
+50,Mendoza,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47184,2531.5898
+50,Mendoza,2014,17,Robos agravados por el resultado de lesiones y/o muertes,3132,168.04297
+50,Mendoza,2014,19,Hurtos,32008,1717.3434
+50,Mendoza,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),45837,2430.9604
+50,Mendoza,2015,17,Robos agravados por el resultado de lesiones y/o muertes,2799,148.44467
+50,Mendoza,2015,19,Hurtos,32178,1706.5569
+50,Mendoza,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),40048,2100.0029
+50,Mendoza,2016,17,Robos agravados por el resultado de lesiones y/o muertes,3184,166.95988
+50,Mendoza,2016,19,Hurtos,27744,1454.8162
+50,Mendoza,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),23047,1195.195363386686
+50,Mendoza,2017,17,Robos agravados por el resultado de lesiones y/o muertes,2765,143.3902538188999
+50,Mendoza,2017,19,Hurtos,16718,866.9794804138766
+50,Mendoza,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),23660,1213.77340399827
+50,Mendoza,2018,17,Robos agravados por el resultado de lesiones y/o muertes,1869,95.88091682471541
+50,Mendoza,2018,19,Hurtos,16233,832.76346860118
+50,Mendoza,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29578,1501.435038492737
+50,Mendoza,2019,17,Robos agravados por el resultado de lesiones y/o muertes,46,2.335046716162889
+50,Mendoza,2019,19,Hurtos,18050,916.252026668264
+50,Mendoza,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),20121,1010.933821290655
+50,Mendoza,2020,17,Robos agravados por el resultado de lesiones y/o muertes,25,1.256068064821151
+50,Mendoza,2020,19,Hurtos,11957,600.75223404266
+50,Mendoza,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),28691,1427.155195355267
+50,Mendoza,2021,17,Robos agravados por el resultado de lesiones y/o muertes,34,1.691236856229447
+50,Mendoza,2021,19,Hurtos,17262,858.6509003597857
+50,Mendoza,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29199,1436.40516474213
+50,Mendoza,2022,17,Robos agravados por el resultado de lesiones y/o muertes,24,1.180647417850307
+50,Mendoza,2022,19,Hurtos,19573,962.8671628993355
+50,Mendoza,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),31306,1536.695941740443
+50,Mendoza,2023,17,Robos agravados por el resultado de lesiones y/o muertes,17,0.8344672270359529
+50,Mendoza,2023,19,Hurtos,22113,1085.445517143884
+50,Mendoza,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),31236,1529.496273946121
+50,Mendoza,2024,17,Robos agravados por el resultado de lesiones y/o muertes,21,1.028282166502386
+50,Mendoza,2024,19,Hurtos,20936,1025.148354185427
+50,Mendoza,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),26973,1317.567914121907
+50,Mendoza,2025,17,Robos agravados por el resultado de lesiones y/o muertes,15,0.7327148894015723
+50,Mendoza,2025,19,Hurtos,18633,910.1784356146329
+54,Misiones,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3306,348.2966
+54,Misiones,2000,17,Robos agravados por el resultado de lesiones y/o muertes,19,2.0017047
+54,Misiones,2000,19,Hurtos,7221,760.75311
+54,Misiones,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4347,448.95987
+54,Misiones,2001,17,Robos agravados por el resultado de lesiones y/o muertes,68,7.0230665
+54,Misiones,2001,19,Hurtos,8593,887.4884
+54,Misiones,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6323,642.99164
+54,Misiones,2002,17,Robos agravados por el resultado de lesiones y/o muertes,109,11.08431
+54,Misiones,2002,19,Hurtos,12479,1269.001
+54,Misiones,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4950,495.62299
+54,Misiones,2003,17,Robos agravados por el resultado de lesiones y/o muertes,118,11.814851
+54,Misiones,2003,19,Hurtos,10934,1094.7761
+54,Misiones,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4840,477.15097
+54,Misiones,2004,17,Robos agravados por el resultado de lesiones y/o muertes,73,7.1966987
+54,Misiones,2004,19,Hurtos,9581,944.54205
+54,Misiones,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4832,469.03104
+54,Misiones,2005,17,Robos agravados por el resultado de lesiones y/o muertes,82,7.9595499
+54,Misiones,2005,19,Hurtos,10314,1001.1561
+54,Misiones,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4804,459.1369
+54,Misiones,2006,17,Robos agravados por el resultado de lesiones y/o muertes,56,5.3521371
+54,Misiones,2006,19,Hurtos,7956,760.3858
+54,Misiones,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4129,388.55106
+54,Misiones,2007,17,Robos agravados por el resultado de lesiones y/o muertes,263,24.749075
+54,Misiones,2007,19,Hurtos,7468,702.7608
+54,Misiones,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4113,381.08881
+54,Misiones,2008,17,Robos agravados por el resultado de lesiones y/o muertes,55,5.0960088
+54,Misiones,2008,19,Hurtos,8138,754.02399
+54,Misiones,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3660,333.89713
+54,Misiones,2009,17,Robos agravados por el resultado de lesiones y/o muertes,86,7.8456702
+54,Misiones,2009,19,Hurtos,7632,696.25763
+54,Misiones,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3702,332.53119
+54,Misiones,2010,17,Robos agravados por el resultado de lesiones y/o muertes,82,7.3656287
+54,Misiones,2010,19,Hurtos,7316,657.15784
+54,Misiones,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3310,293.23227
+54,Misiones,2011,17,Robos agravados por el resultado de lesiones y/o muertes,74,6.5556459
+54,Misiones,2011,19,Hurtos,6778,600.46173
+54,Misiones,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3403,297.41589
+54,Misiones,2012,17,Robos agravados por el resultado de lesiones y/o muertes,63,5.5060835
+54,Misiones,2012,19,Hurtos,7332,640.80322
+54,Misiones,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4227,364.57098
+54,Misiones,2013,17,Robos agravados por el resultado de lesiones y/o muertes,87,7.5035901
+54,Misiones,2013,19,Hurtos,7523,648.84491
+54,Misiones,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5840,497.21509
+54,Misiones,2014,17,Robos agravados por el resultado de lesiones y/o muertes,94,8.0031195
+54,Misiones,2014,19,Hurtos,9914,844.07367
+54,Misiones,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5345,449.36887
+54,Misiones,2015,17,Robos agravados por el resultado de lesiones y/o muertes,137,11.517967
+54,Misiones,2015,19,Hurtos,9152,769.43384
+54,Misiones,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5756,478.00082
+54,Misiones,2016,17,Robos agravados por el resultado de lesiones y/o muertes,160,13.287028
+54,Misiones,2016,19,Hurtos,10100,838.74365
+54,Misiones,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5267,432.1566561724885
+54,Misiones,2017,17,Robos agravados por el resultado de lesiones y/o muertes,76,6.235789988439174
+54,Misiones,2017,19,Hurtos,8673,711.6185074964862
+54,Misiones,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5935,481.2772213558962
+54,Misiones,2018,17,Robos agravados por el resultado de lesiones y/o muertes,126,10.21751135481768
+54,Misiones,2018,19,Hurtos,8663,702.4944513236948
+54,Misiones,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6620,530.7200315545928
+54,Misiones,2019,17,Robos agravados por el resultado de lesiones y/o muertes,217,17.39671402527895
+54,Misiones,2019,19,Hurtos,9878,791.9112495009468
+54,Misiones,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5096,404.0295125482243
+54,Misiones,2020,17,Robos agravados por el resultado de lesiones y/o muertes,120,9.514038757022549
+54,Misiones,2020,19,Hurtos,8233,652.7423423880554
+54,Misiones,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5294,415.218291565751
+54,Misiones,2021,17,Robos agravados por el resultado de lesiones y/o muertes,132,10.35300613650909
+54,Misiones,2021,19,Hurtos,8552,670.7493066623163
+54,Misiones,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5406,411.5461299362126
+54,Misiones,2022,17,Robos agravados por el resultado de lesiones y/o muertes,112,8.52629791950718
+54,Misiones,2022,19,Hurtos,7874,599.4291948053531
+54,Misiones,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5723,432.5797642164396
+54,Misiones,2023,17,Robos agravados por el resultado de lesiones y/o muertes,90,6.802757081859087
+54,Misiones,2023,19,Hurtos,8888,671.8100549284841
+54,Misiones,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6182,463.5458180773871
+54,Misiones,2024,17,Robos agravados por el resultado de lesiones y/o muertes,71,5.323803475168956
+54,Misiones,2024,19,Hurtos,9025,676.722906526758
+54,Misiones,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5541,412.1639313045238
+54,Misiones,2025,17,Robos agravados por el resultado de lesiones y/o muertes,62,4.611832474441522
+54,Misiones,2025,19,Hurtos,8239,612.853028337479
+58,Neuquén,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6857,1441.4396
+58,Neuquén,2000,17,Robos agravados por el resultado de lesiones y/o muertes,262,55.076149
+58,Neuquén,2000,19,Hurtos,7488,1574.0848
+58,Neuquén,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7534,1547.725
+58,Neuquén,2001,17,Robos agravados por el resultado de lesiones y/o muertes,348,71.490349
+58,Neuquén,2001,19,Hurtos,7952,1633.5956
+58,Neuquén,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8905,1796.9026
+58,Neuquén,2002,17,Robos agravados por el resultado de lesiones y/o muertes,216,43.585735
+58,Neuquén,2002,19,Hurtos,10354,2089.2903
+58,Neuquén,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9175,1818.5278
+58,Neuquén,2003,17,Robos agravados por el resultado de lesiones y/o muertes,233,46.181686
+58,Neuquén,2003,19,Hurtos,10531,2087.2932
+58,Neuquén,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9056,1763.0819
+58,Neuquén,2004,17,Robos agravados por el resultado de lesiones y/o muertes,258,50.229145
+58,Neuquén,2004,19,Hurtos,10752,2093.2705
+58,Neuquén,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8713,1666.1981
+58,Neuquén,2005,17,Robos agravados por el resultado de lesiones y/o muertes,369,70.564346
+58,Neuquén,2005,19,Hurtos,9688,1852.6487
+58,Neuquén,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7966,1496.3109
+58,Neuquén,2006,17,Robos agravados por el resultado de lesiones y/o muertes,303,56.914661
+58,Neuquén,2006,19,Hurtos,8662,1627.0455
+58,Neuquén,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8013,1478.4242
+58,Neuquén,2007,17,Robos agravados por el resultado de lesiones y/o muertes,304,56.088974
+58,Neuquén,2007,19,Hurtos,8141,1502.0406
+58,Neuquén,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9678,1753.9313
+58,Neuquén,2008,17,Robos agravados por el resultado de lesiones y/o muertes,237,42.951202
+58,Neuquén,2008,19,Hurtos,8381,1518.8777
+58,Neuquén,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10242,1823.2018
+58,Neuquén,2009,17,Robos agravados por el resultado de lesiones y/o muertes,308,54.827782
+58,Neuquén,2009,19,Hurtos,8548,1521.6489
+58,Neuquén,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),11236,1964.6448
+58,Neuquén,2010,17,Robos agravados por el resultado de lesiones y/o muertes,251,43.888023
+58,Neuquén,2010,19,Hurtos,7867,1375.566
+58,Neuquén,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10095,1735.371
+58,Neuquén,2011,17,Robos agravados por el resultado de lesiones y/o muertes,307,52.774532
+58,Neuquén,2011,19,Hurtos,7139,1227.2228
+58,Neuquén,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10630,1797.3629
+58,Neuquén,2012,17,Robos agravados por el resultado de lesiones y/o muertes,438,74.058792
+58,Neuquén,2012,19,Hurtos,6468,1093.6354
+58,Neuquén,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),11261,1873.7012
+58,Neuquén,2013,17,Robos agravados por el resultado de lesiones y/o muertes,476,79.200935
+58,Neuquén,2013,19,Hurtos,6388,1062.8899
+58,Neuquén,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13305,2179.5432
+58,Neuquén,2014,17,Robos agravados por el resultado de lesiones y/o muertes,612,100.25407
+58,Neuquén,2014,19,Hurtos,6895,1129.4965
+58,Neuquén,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13227,2134.2649
+58,Neuquén,2015,17,Robos agravados por el resultado de lesiones y/o muertes,331,53.409065
+58,Neuquén,2015,19,Hurtos,6483,1046.0754
+58,Neuquén,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13593,2161.4033
+58,Neuquén,2016,17,Robos agravados por el resultado de lesiones y/o muertes,233,37.048992
+58,Neuquén,2016,19,Hurtos,6133,975.19946
+58,Neuquén,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13046,2045.106464361128
+58,Neuquén,2017,17,Robos agravados por el resultado de lesiones y/o muertes,151,23.67093945412619
+58,Neuquén,2017,19,Hurtos,5849,916.8961911734045
+58,Neuquén,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12253,1894.450079160894
+58,Neuquén,2018,17,Robos agravados por el resultado de lesiones y/o muertes,166,25.66544626954284
+58,Neuquén,2018,19,Hurtos,6560,1014.24896101326
+58,Neuquén,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13717,2092.597875518115
+58,Neuquén,2019,17,Robos agravados por el resultado de lesiones y/o muertes,214,32.64678467309737
+58,Neuquén,2019,19,Hurtos,7258,1107.244687651125
+58,Neuquén,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10309,1552.426975395184
+58,Neuquén,2020,17,Robos agravados por el resultado de lesiones y/o muertes,170,25.6002120299914
+58,Neuquén,2020,19,Hurtos,5865,883.2073150347032
+58,Neuquén,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12003,1784.936226784899
+58,Neuquén,2021,17,Robos agravados por el resultado de lesiones y/o muertes,133,19.77809865553541
+58,Neuquén,2021,19,Hurtos,6408,952.9177156742174
+58,Neuquén,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12537,1819.007518622447
+58,Neuquén,2022,17,Robos agravados por el resultado de lesiones y/o muertes,82,11.89747280266736
+58,Neuquén,2022,19,Hurtos,6667,967.3225753095519
+58,Neuquén,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),11666,1681.137282310303
+58,Neuquén,2023,17,Robos agravados por el resultado de lesiones y/o muertes,31,4.467277194549922
+58,Neuquén,2023,19,Hurtos,6124,882.5034044975393
+58,Neuquén,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9417,1348.348391346057
+58,Neuquén,2024,17,Robos agravados por el resultado de lesiones y/o muertes,35,5.011382998525222
+58,Neuquén,2024,19,Hurtos,5068,725.648258186452
+58,Neuquén,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6683,950.88899512817
+58,Neuquén,2025,17,Robos agravados por el resultado de lesiones y/o muertes,37,5.26453581022629
+58,Neuquén,2025,19,Hurtos,4026,572.8384100532714
+62,Río Negro,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4386,774.47382
+62,Río Negro,2000,17,Robos agravados por el resultado de lesiones y/o muertes,819,144.61789
+62,Río Negro,2000,19,Hurtos,5472,966.23816
+62,Río Negro,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5405,942.63281
+62,Río Negro,2001,17,Robos agravados por el resultado de lesiones y/o muertes,382,66.620857
+62,Río Negro,2001,19,Hurtos,5844,1019.1945
+62,Río Negro,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6941,1194.1135
+62,Río Negro,2002,17,Robos agravados por el resultado de lesiones y/o muertes,4,0.6881507
+62,Río Negro,2002,19,Hurtos,6971,1199.2747
+62,Río Negro,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5820,987.69623
+62,Río Negro,2003,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.33941451
+62,Río Negro,2003,19,Hurtos,6139,1041.8329
+62,Río Negro,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5053,845.91547
+62,Río Negro,2004,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.33481714
+62,Río Negro,2004,19,Hurtos,5788,968.96075
+62,Río Negro,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4655,768.73029
+62,Río Negro,2005,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2005,19,Hurtos,5141,848.98865
+62,Río Negro,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4394,715.79956
+62,Río Negro,2006,17,Robos agravados por el resultado de lesiones y/o muertes,190,30.951733
+62,Río Negro,2006,19,Hurtos,5204,847.75171
+62,Río Negro,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6360,1022.0348
+62,Río Negro,2007,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2007,19,Hurtos,5903,948.59613
+62,Río Negro,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7412,1174.9543
+62,Río Negro,2008,17,Robos agravados por el resultado de lesiones y/o muertes,18,2.85337
+62,Río Negro,2008,19,Hurtos,6484,1027.8473
+62,Río Negro,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7865,1229.8748
+62,Río Negro,2009,17,Robos agravados por el resultado de lesiones y/o muertes,184,28.772659
+62,Río Negro,2009,19,Hurtos,6739,1053.7986
+62,Río Negro,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6943,1070.9928
+62,Río Negro,2010,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2010,19,Hurtos,5729,883.72717
+62,Río Negro,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7569,1149.455
+62,Río Negro,2011,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2011,19,Hurtos,6027,915.28143
+62,Río Negro,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9611,1437.3458
+62,Río Negro,2012,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2012,19,Hurtos,7319,1094.5723
+62,Río Negro,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9506,1400.4187
+62,Río Negro,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2013,19,Hurtos,6950,1023.8702
+62,Río Negro,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9795,1421.8876
+62,Río Negro,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2014,19,Hurtos,6812,988.86151
+62,Río Negro,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8048,1151.5667
+62,Río Negro,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2015,19,Hurtos,6161,881.56091
+62,Río Negro,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8338,1176.3561
+62,Río Negro,2016,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2016,19,Hurtos,5930,836.62646
+62,Río Negro,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7643,1063.527800892233
+62,Río Negro,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2017,19,Hurtos,5415,753.5003325698606
+62,Río Negro,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7732,1061.500295852708
+62,Río Negro,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2018,19,Hurtos,5766,791.5947627892801
+62,Río Negro,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7863,1065.360539793513
+62,Río Negro,2019,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2019,19,Hurtos,5845,791.9410346042326
+62,Río Negro,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5263,703.9766723291556
+62,Río Negro,2020,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2020,19,Hurtos,4531,606.0646593812281
+62,Río Negro,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6305,832.835789351326
+62,Río Negro,2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2021,19,Hurtos,5267,695.7249964335343
+62,Río Negro,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7120,917.0660583805283
+62,Río Negro,2022,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+62,Río Negro,2022,19,Hurtos,5539,713.4310249114812
+62,Río Negro,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7711,987.9361858052879
+62,Río Negro,2023,17,Robos agravados por el resultado de lesiones y/o muertes,88,11.27459270533852
+62,Río Negro,2023,19,Hurtos,6286,805.3646562017947
+62,Río Negro,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7197,917.2932139165501
+62,Río Negro,2024,17,Robos agravados por el resultado de lesiones y/o muertes,89,11.34348979277101
+62,Río Negro,2024,19,Hurtos,6532,832.535677824497
+62,Río Negro,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5679,720.0839907792731
+62,Río Negro,2025,17,Robos agravados por el resultado de lesiones y/o muertes,78,9.890218573830483
+62,Río Negro,2025,19,Hurtos,5082,644.3857793872629
+66,Salta,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4514,425.45169
+66,Salta,2000,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.28275478
+66,Salta,2000,19,Hurtos,7386,696.14227
+66,Salta,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4907,452.6615
+66,Salta,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+66,Salta,2001,19,Hurtos,7860,725.07019
+66,Salta,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6269,569.77545
+66,Salta,2002,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.09088777
+66,Salta,2002,19,Hurtos,8902,809.08295
+66,Salta,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5784,517.94263
+66,Salta,2003,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.17909496
+66,Salta,2003,19,Hurtos,10832,969.97833
+66,Salta,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7962,702.46332
+66,Salta,2004,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.088226989
+66,Salta,2004,19,Hurtos,15376,1356.5782
+66,Salta,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12196,1060.1493
+66,Salta,2005,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.086925983
+66,Salta,2005,19,Hurtos,17566,1526.9419
+66,Salta,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12284,1052.0529
+66,Salta,2006,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.085644156
+66,Salta,2006,19,Hurtos,15320,1312.0685
+66,Salta,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14225,1200.3226
+66,Salta,2007,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.25314361
+66,Salta,2007,19,Hurtos,4,0.33752483
+66,Salta,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),11850,985.17169
+66,Salta,2008,17,Robos agravados por el resultado de lesiones y/o muertes,108,8.9787798
+66,Salta,2008,19,Hurtos,14244,1184.2013
+66,Salta,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),11941,978.09784
+66,Salta,2009,17,Robos agravados por el resultado de lesiones y/o muertes,131,10.730326
+66,Salta,2009,19,Hurtos,13096,1072.705
+66,Salta,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12137,979.49255
+66,Salta,2010,17,Robos agravados por el resultado de lesiones y/o muertes,80,6.4562416
+66,Salta,2010,19,Hurtos,12416,1002.0087
+66,Salta,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13289,1056.2661
+66,Salta,2011,17,Robos agravados por el resultado de lesiones y/o muertes,57,4.530602
+66,Salta,2011,19,Hurtos,12364,982.74316
+66,Salta,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12082,946.07782
+66,Salta,2012,17,Robos agravados por el resultado de lesiones y/o muertes,64,5.0115027
+66,Salta,2012,19,Hurtos,12252,959.38959
+66,Salta,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14190,1094.9547
+66,Salta,2013,17,Robos agravados por el resultado de lesiones y/o muertes,187,14.429636
+66,Salta,2013,19,Hurtos,13397,1033.7638
+66,Salta,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),19105,1453.1545
+66,Salta,2014,17,Robos agravados por el resultado de lesiones y/o muertes,190,14.45168
+66,Salta,2014,19,Hurtos,17466,1328.4897
+66,Salta,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),18952,1421.3662
+66,Salta,2015,17,Robos agravados por el resultado de lesiones y/o muertes,132,9.899765
+66,Salta,2015,19,Hurtos,16712,1253.3702
+66,Salta,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),17761,1313.802
+66,Salta,2016,17,Robos agravados por el resultado de lesiones y/o muertes,128,9.4683104
+66,Salta,2016,19,Hurtos,15800,1168.7445
+66,Salta,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),16806,1226.461979021852
+66,Salta,2017,17,Robos agravados por el resultado de lesiones y/o muertes,229,16.71187630584339
+66,Salta,2017,19,Hurtos,15945,1163.628243216912
+66,Salta,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),17115,1232.596728055241
+66,Salta,2018,17,Robos agravados por el resultado de lesiones y/o muertes,136,9.79451679903668
+66,Salta,2018,19,Hurtos,16876,1215.384305151052
+66,Salta,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),18178,1292.350830096176
+66,Salta,2019,17,Robos agravados por el resultado de lesiones y/o muertes,59,4.194559301115326
+66,Salta,2019,19,Hurtos,18254,1297.753991229816
+66,Salta,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),15889,1115.489572078571
+66,Salta,2020,17,Robos agravados por el resultado de lesiones y/o muertes,39,2.738000711880185
+66,Salta,2020,19,Hurtos,13821,970.3053292024624
+66,Salta,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),18025,1250.010402305706
+66,Salta,2021,17,Robos agravados por el resultado de lesiones y/o muertes,24,1.664368912917445
+66,Salta,2021,19,Hurtos,17319,1201.050216784051
+66,Salta,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),18997,1294.746520160001
+66,Salta,2022,17,Robos agravados por el resultado de lesiones y/o muertes,16,1.090485040930675
+66,Salta,2022,19,Hurtos,19604,1336.116796400309
+66,Salta,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),20718,1405.68611499921
+66,Salta,2023,17,Robos agravados por el resultado de lesiones y/o muertes,19,1.289122318031904
+66,Salta,2023,19,Hurtos,20673,1402.632930561766
+66,Salta,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),19144,1293.227780078321
+66,Salta,2024,17,Robos agravados por el resultado de lesiones y/o muertes,25,1.688816052129023
+66,Salta,2024,19,Hurtos,21243,1435.020775815073
+66,Salta,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),15757,1059.994604838021
+66,Salta,2025,17,Robos agravados por el resultado de lesiones y/o muertes,31,2.085411737639058
+66,Salta,2025,19,Hurtos,17950,1207.52066743939
+70,San Juan,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4158,672.65662
+70,San Juan,2000,17,Robos agravados por el resultado de lesiones y/o muertes,518,83.798973
+70,San Juan,2000,19,Hurtos,8769,1418.5969
+70,San Juan,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5944,946.62793
+70,San Juan,2001,17,Robos agravados por el resultado de lesiones y/o muertes,621,98.899048
+70,San Juan,2001,19,Hurtos,10931,1740.8463
+70,San Juan,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7698,1212.0087
+70,San Juan,2002,17,Robos agravados por el resultado de lesiones y/o muertes,878,138.23637
+70,San Juan,2002,19,Hurtos,12736,2005.2146
+70,San Juan,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6900,1073.9985
+70,San Juan,2003,17,Robos agravados por el resultado de lesiones y/o muertes,821,127.79025
+70,San Juan,2003,19,Hurtos,13435,2091.1841
+70,San Juan,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7032,1082.0825
+70,San Juan,2004,17,Robos agravados por el resultado de lesiones y/o muertes,339,52.165241
+70,San Juan,2004,19,Hurtos,13903,2139.3904
+70,San Juan,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5971,908.35516
+70,San Juan,2005,17,Robos agravados por el resultado de lesiones y/o muertes,425,64.65432
+70,San Juan,2005,19,Hurtos,12367,1881.3646
+70,San Juan,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6176,928.84332
+70,San Juan,2006,17,Robos agravados por el resultado de lesiones y/o muertes,374,56.247959
+70,San Juan,2006,19,Hurtos,11793,1773.6155
+70,San Juan,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6318,939.38177
+70,San Juan,2007,17,Robos agravados por el resultado de lesiones y/o muertes,499,74.193024
+70,San Juan,2007,19,Hurtos,10235,1521.7747
+70,San Juan,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6124,900.16992
+70,San Juan,2008,17,Robos agravados por el resultado de lesiones y/o muertes,627,92.163055
+70,San Juan,2008,19,Hurtos,9687,1423.8971
+70,San Juan,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5523,802.58545
+70,San Juan,2009,17,Robos agravados por el resultado de lesiones y/o muertes,653,94.891968
+70,San Juan,2009,19,Hurtos,10084,1465.3761
+70,San Juan,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5320,764.28436
+70,San Juan,2010,17,Robos agravados por el resultado de lesiones y/o muertes,790,113.49335
+70,San Juan,2010,19,Hurtos,9178,1318.5342
+70,San Juan,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6912,980.90973
+70,San Juan,2011,17,Robos agravados por el resultado de lesiones y/o muertes,972,137.94043
+70,San Juan,2011,19,Hurtos,9596,1361.807
+70,San Juan,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7155,1003.1686
+70,San Juan,2012,17,Robos agravados por el resultado de lesiones y/o muertes,730,102.34984
+70,San Juan,2012,19,Hurtos,8743,1225.8146
+70,San Juan,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6286,870.84216
+70,San Juan,2013,17,Robos agravados por el resultado de lesiones y/o muertes,610,84.507431
+70,San Juan,2013,19,Hurtos,7185,995.38672
+70,San Juan,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6662,912.09296
+70,San Juan,2014,17,Robos agravados por el resultado de lesiones y/o muertes,608,83.24115
+70,San Juan,2014,19,Hurtos,7554,1034.2166
+70,San Juan,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6013,813.71228
+70,San Juan,2015,17,Robos agravados por el resultado de lesiones y/o muertes,544,73.617073
+70,San Juan,2015,19,Hurtos,6988,945.6546
+70,San Juan,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6951,929.91461
+70,San Juan,2016,17,Robos agravados por el resultado de lesiones y/o muertes,423,56.589539
+70,San Juan,2016,19,Hurtos,7789,1042.0234
+70,San Juan,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6663,881.3562012396924
+70,San Juan,2017,17,Robos agravados por el resultado de lesiones y/o muertes,591,78.17522361288582
+70,San Juan,2017,19,Hurtos,7723,1021.56895425096
+70,San Juan,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6970,911.7499319784843
+70,San Juan,2018,17,Robos agravados por el resultado de lesiones y/o muertes,605,79.14041733816111
+70,San Juan,2018,19,Hurtos,7955,1040.598380041441
+70,San Juan,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7525,973.6361330925012
+70,San Juan,2019,17,Robos agravados por el resultado de lesiones y/o muertes,197,25.48921172348475
+70,San Juan,2019,19,Hurtos,7890,1020.862337554795
+70,San Juan,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6528,835.6192965590866
+70,San Juan,2020,17,Robos agravados por el resultado de lesiones y/o muertes,48,6.144259533522695
+70,San Juan,2020,19,Hurtos,6349,812.706328715325
+70,San Juan,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6996,886.1428088295088
+70,San Juan,2021,17,Robos agravados por el resultado de lesiones y/o muertes,33,4.179918909573154
+70,San Juan,2021,19,Hurtos,6639,840.92368608049
+70,San Juan,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8522,1017.87674398883
+70,San Juan,2022,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.3583231907963494
+70,San Juan,2022,19,Hurtos,8060,962.694972606192
+70,San Juan,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9904,1177.428654647479
+70,San Juan,2023,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.3566524600103429
+70,San Juan,2023,19,Hurtos,10474,1245.192622049444
+70,San Juan,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12119,1433.86011138179
+70,San Juan,2024,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+70,San Juan,2024,19,Hurtos,9689,1146.354535784979
+70,San Juan,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9455,1113.509681233564
+70,San Juan,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+70,San Juan,2025,19,Hurtos,7340,864.427399286553
+74,San Luis,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2163,594.92377
+74,San Luis,2000,17,Robos agravados por el resultado de lesiones y/o muertes,124,34.105663
+74,San Luis,2000,19,Hurtos,2206,606.75073
+74,San Luis,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2168,581.46863
+74,San Luis,2001,17,Robos agravados por el resultado de lesiones y/o muertes,242,64.905632
+74,San Luis,2001,19,Hurtos,1939,520.04968
+74,San Luis,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2524,663.94843
+74,San Luis,2002,17,Robos agravados por el resultado de lesiones y/o muertes,474,124.68762
+74,San Luis,2002,19,Hurtos,2213,582.13861
+74,San Luis,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3034,782.77985
+74,San Luis,2003,17,Robos agravados por el resultado de lesiones y/o muertes,544,140.35341
+74,San Luis,2003,19,Hurtos,2445,630.81635
+74,San Luis,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2661,673.35895
+74,San Luis,2004,17,Robos agravados por el resultado de lesiones y/o muertes,528,133.60899
+74,San Luis,2004,19,Hurtos,1891,478.51248
+74,San Luis,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2225,552.21741
+74,San Luis,2005,17,Robos agravados por el resultado de lesiones y/o muertes,351,87.113853
+74,San Luis,2005,19,Hurtos,1872,464.60721
+74,San Luis,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1991,484.65228
+74,San Luis,2006,17,Robos agravados por el resultado de lesiones y/o muertes,344,83.737007
+74,San Luis,2006,19,Hurtos,1518,369.51389
+74,San Luis,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2409,575.14075
+74,San Luis,2007,17,Robos agravados por el resultado de lesiones y/o muertes,370,88.336273
+74,San Luis,2007,19,Hurtos,1689,403.24313
+74,San Luis,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2831,662.91071
+74,San Luis,2008,17,Robos agravados por el resultado de lesiones y/o muertes,495,115.90986
+74,San Luis,2008,19,Hurtos,2260,529.20459
+74,San Luis,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2792,641.2229
+74,San Luis,2009,17,Robos agravados por el resultado de lesiones y/o muertes,389,89.339439
+74,San Luis,2009,19,Hurtos,2443,561.07007
+74,San Luis,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3033,683.19427
+74,San Luis,2010,17,Robos agravados por el resultado de lesiones y/o muertes,358,80.6408
+74,San Luis,2010,19,Hurtos,2508,564.9361
+74,San Luis,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3528,783.24463
+74,San Luis,2011,17,Robos agravados por el resultado de lesiones y/o muertes,23,5.1061864
+74,San Luis,2011,19,Hurtos,2042,453.34055
+74,San Luis,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4047,885.70526
+74,San Luis,2012,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.43770954
+74,San Luis,2012,19,Hurtos,1933,423.0463
+74,San Luis,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3699,798.21155
+74,San Luis,2013,17,Robos agravados por el resultado de lesiones y/o muertes,4,0.86316466
+74,San Luis,2013,19,Hurtos,1478,318.93933
+74,San Luis,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3307,703.78326
+74,San Luis,2014,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.21281622
+74,San Luis,2014,19,Hurtos,1675,356.46716
+74,San Luis,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2101,441.06131
+74,San Luis,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+74,San Luis,2015,19,Hurtos,1567,328.95911
+74,San Luis,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2299,476.18457
+74,San Luis,2016,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.20712683
+74,San Luis,2016,19,Hurtos,1650,341.75925
+74,San Luis,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1986,405.9481833512187
+74,San Luis,2017,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+74,San Luis,2017,19,Hurtos,1345,274.924625683479
+74,San Luis,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1682,339.3667440767186
+74,San Luis,2018,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+74,San Luis,2018,19,Hurtos,1353,272.986447524257
+74,San Luis,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2068,411.9521912350598
+74,San Luis,2019,17,Robos agravados por el resultado de lesiones y/o muertes,102,20.31872509960159
+74,San Luis,2019,19,Hurtos,1525,303.7848605577689
+74,San Luis,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1839,361.7742874679341
+74,San Luis,2020,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.5901701263750964
+74,San Luis,2020,19,Hurtos,1294,254.5600478431249
+74,San Luis,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2162,420.1239773809293
+74,San Luis,2021,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.5829657410466178
+74,San Luis,2021,19,Hurtos,1699,330.1529313460679
+74,San Luis,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2749,521.1078042954903
+74,San Luis,2022,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.3791253577995564
+74,San Luis,2022,19,Hurtos,2271,430.4968437813963
+74,San Luis,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3164,596.0903706159852
+74,San Luis,2023,17,Robos agravados por el resultado de lesiones y/o muertes,8,1.507181720900089
+74,San Luis,2023,19,Hurtos,2743,516.774932553618
+74,San Luis,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3267,612.4113109576074
+74,San Luis,2024,17,Robos agravados por el resultado de lesiones y/o muertes,8,1.499629778898334
+74,San Luis,2024,19,Hurtos,3235,606.412791842014
+74,San Luis,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2684,500.5846993414439
+74,San Luis,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+74,San Luis,2025,19,Hurtos,2490,464.4023477497002
+78,Santa Cruz,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1283,661.36749
+78,Santa Cruz,2000,17,Robos agravados por el resultado de lesiones y/o muertes,39,20.103922
+78,Santa Cruz,2000,19,Hurtos,1409,726.3186
+78,Santa Cruz,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1566,790.42603
+78,Santa Cruz,2001,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+78,Santa Cruz,2001,19,Hurtos,1738,877.2417
+78,Santa Cruz,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2149,1045.6912
+78,Santa Cruz,2002,17,Robos agravados por el resultado de lesiones y/o muertes,5,2.4329717
+78,Santa Cruz,2002,19,Hurtos,2593,1261.7391
+78,Santa Cruz,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2271,1065.3269
+78,Santa Cruz,2003,17,Robos agravados por el resultado de lesiones y/o muertes,4,1.8764014
+78,Santa Cruz,2003,19,Hurtos,2517,1180.7256
+78,Santa Cruz,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2076,938.83972
+78,Santa Cruz,2004,17,Robos agravados por el resultado de lesiones y/o muertes,2,0.90446991
+78,Santa Cruz,2004,19,Hurtos,2141,968.23505
+78,Santa Cruz,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1949,849.71881
+78,Santa Cruz,2005,17,Robos agravados por el resultado de lesiones y/o muertes,5,2.179884
+78,Santa Cruz,2005,19,Hurtos,1924,838.8194
+78,Santa Cruz,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1903,799.83527
+78,Santa Cruz,2006,17,Robos agravados por el resultado de lesiones y/o muertes,5,2.1015115
+78,Santa Cruz,2006,19,Hurtos,1743,732.58685
+78,Santa Cruz,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1896,768.23962
+78,Santa Cruz,2007,17,Robos agravados por el resultado de lesiones y/o muertes,27,10.940121
+78,Santa Cruz,2007,19,Hurtos,2057,833.47516
+78,Santa Cruz,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2075,810.5437
+78,Santa Cruz,2008,17,Robos agravados por el resultado de lesiones y/o muertes,23,8.9843397
+78,Santa Cruz,2008,19,Hurtos,2073,809.76245
+78,Santa Cruz,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2399,903.41144
+78,Santa Cruz,2009,17,Robos agravados por el resultado de lesiones y/o muertes,20,7.5315666
+78,Santa Cruz,2009,19,Hurtos,2384,897.76276
+78,Santa Cruz,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2536,920.66858
+78,Santa Cruz,2010,17,Robos agravados por el resultado de lesiones y/o muertes,6,2.1782379
+78,Santa Cruz,2010,19,Hurtos,2443,886.90588
+78,Santa Cruz,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2525,887.79034
+78,Santa Cruz,2011,17,Robos agravados por el resultado de lesiones y/o muertes,11,3.8676014
+78,Santa Cruz,2011,19,Hurtos,2337,821.68951
+78,Santa Cruz,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2825,962.82635
+78,Santa Cruz,2012,17,Robos agravados por el resultado de lesiones y/o muertes,4,1.363294
+78,Santa Cruz,2012,19,Hurtos,2190,746.40344
+78,Santa Cruz,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2748,908.67004
+78,Santa Cruz,2013,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+78,Santa Cruz,2013,19,Hurtos,1965,649.75861
+78,Santa Cruz,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2427,779.27332
+78,Santa Cruz,2014,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+78,Santa Cruz,2014,19,Hurtos,2083,668.82007
+78,Santa Cruz,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2326,725.81122
+78,Santa Cruz,2015,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+78,Santa Cruz,2015,19,Hurtos,1857,579.4632
+78,Santa Cruz,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2574,781.18597
+78,Santa Cruz,2016,17,Robos agravados por el resultado de lesiones y/o muertes,19,5.7663302
+78,Santa Cruz,2016,19,Hurtos,2041,619.42523
+78,Santa Cruz,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2449,723.3962108098848
+78,Santa Cruz,2017,17,Robos agravados por el resultado de lesiones y/o muertes,27,7.975376762705957
+78,Santa Cruz,2017,19,Hurtos,1774,524.0117917422358
+78,Santa Cruz,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2444,703.121179080131
+78,Santa Cruz,2018,17,Robos agravados por el resultado de lesiones y/o muertes,60,17.26156740785919
+78,Santa Cruz,2018,19,Hurtos,1914,550.6440003107082
+78,Santa Cruz,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2550,714.9926958589306
+78,Santa Cruz,2019,17,Robos agravados por el resultado de lesiones y/o muertes,63,17.66452542710299
+78,Santa Cruz,2019,19,Hurtos,2264,634.8013582057329
+78,Santa Cruz,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1903,520.3747354374374
+78,Santa Cruz,2020,17,Robos agravados por el resultado de lesiones y/o muertes,40,10.93798708223725
+78,Santa Cruz,2020,19,Hurtos,1842,503.6943051370257
+78,Santa Cruz,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1962,523.5406504498927
+78,Santa Cruz,2021,17,Robos agravados por el resultado de lesiones y/o muertes,31,8.272049013224605
+78,Santa Cruz,2021,19,Hurtos,2141,571.305062493996
+78,Santa Cruz,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2173,649.8264039450114
+78,Santa Cruz,2022,17,Robos agravados por el resultado de lesiones y/o muertes,42,12.55992129115991
+78,Santa Cruz,2022,19,Hurtos,2440,729.6716178673852
+78,Santa Cruz,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2366,707.2376778929937
+78,Santa Cruz,2023,17,Robos agravados por el resultado de lesiones y/o muertes,37,11.05992987406626
+78,Santa Cruz,2023,19,Hurtos,2961,885.0933069489241
+78,Santa Cruz,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2593,774.6032884045502
+78,Santa Cruz,2024,17,Robos agravados por el resultado de lesiones y/o muertes,31,9.260586941974955
+78,Santa Cruz,2024,19,Hurtos,2926,874.079915878023
+78,Santa Cruz,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2157,643.9709451773831
+78,Santa Cruz,2025,17,Robos agravados por el resultado de lesiones y/o muertes,11,3.284042835860554
+78,Santa Cruz,2025,19,Hurtos,2103,627.8492803467949
+82,Santa Fe,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),20718,675.45538
+82,Santa Fe,2000,17,Robos agravados por el resultado de lesiones y/o muertes,1449,47.240799
+82,Santa Fe,2000,19,Hurtos,17924,584.36444
+82,Santa Fe,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),26408,853.11047
+82,Santa Fe,2001,17,Robos agravados por el resultado de lesiones y/o muertes,1005,32.466526
+82,Santa Fe,2001,19,Hurtos,20080,648.68439
+82,Santa Fe,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),31197,1002.1091
+82,Santa Fe,2002,17,Robos agravados por el resultado de lesiones y/o muertes,589,18.919842
+82,Santa Fe,2002,19,Hurtos,26280,844.16541
+82,Santa Fe,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29970,957.24103
+82,Santa Fe,2003,17,Robos agravados por el resultado de lesiones y/o muertes,1056,33.728611
+82,Santa Fe,2003,19,Hurtos,23642,755.12488
+82,Santa Fe,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29544,938.28815
+82,Santa Fe,2004,17,Robos agravados por el resultado de lesiones y/o muertes,591,18.769573
+82,Santa Fe,2004,19,Hurtos,23375,742.36682
+82,Santa Fe,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),34249,1081.5516
+82,Santa Fe,2005,17,Robos agravados por el resultado de lesiones y/o muertes,750,23.684305
+82,Santa Fe,2005,19,Hurtos,22918,723.72919
+82,Santa Fe,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),31665,994.28583
+82,Santa Fe,2006,17,Robos agravados por el resultado de lesiones y/o muertes,1436,45.090618
+82,Santa Fe,2006,19,Hurtos,19200,602.88293
+82,Santa Fe,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),33338,1040.8871
+82,Santa Fe,2007,17,Robos agravados por el resultado de lesiones y/o muertes,1267,39.558578
+82,Santa Fe,2007,19,Hurtos,17122,534.58722
+82,Santa Fe,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),35572,1104.345
+82,Santa Fe,2008,17,Robos agravados por el resultado de lesiones y/o muertes,908,28.189171
+82,Santa Fe,2008,19,Hurtos,17286,536.64978
+82,Santa Fe,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),41838,1291.5164
+82,Santa Fe,2009,17,Robos agravados por el resultado de lesiones y/o muertes,559,17.256027
+82,Santa Fe,2009,19,Hurtos,16709,515.79773
+82,Santa Fe,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),43237,1327.1404
+82,Santa Fe,2010,17,Robos agravados por el resultado de lesiones y/o muertes,460,14.119494
+82,Santa Fe,2010,19,Hurtos,15019,461.0015
+82,Santa Fe,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),44199,1345.3124
+82,Santa Fe,2011,17,Robos agravados por el resultado de lesiones y/o muertes,557,16.953754
+82,Santa Fe,2011,19,Hurtos,13986,425.70056
+82,Santa Fe,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47151,1423.1205
+82,Santa Fe,2012,17,Robos agravados por el resultado de lesiones y/o muertes,782,23.602474
+82,Santa Fe,2012,19,Hurtos,13703,413.58658
+82,Santa Fe,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),48021,1437.2261
+82,Santa Fe,2013,17,Robos agravados por el resultado de lesiones y/o muertes,931,27.864006
+82,Santa Fe,2013,19,Hurtos,12185,364.68628
+82,Santa Fe,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),46175,1370.4363
+82,Santa Fe,2014,17,Robos agravados por el resultado de lesiones y/o muertes,826,24.515005
+82,Santa Fe,2014,19,Hurtos,12458,369.74326
+82,Santa Fe,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47603,1401.1052
+82,Santa Fe,2015,17,Robos agravados por el resultado de lesiones y/o muertes,950,27.961473
+82,Santa Fe,2015,19,Hurtos,12126,356.90613
+82,Santa Fe,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),46161,1347.5083
+82,Santa Fe,2016,17,Robos agravados por el resultado de lesiones y/o muertes,941,27.469191
+82,Santa Fe,2016,19,Hurtos,12496,364.77686
+82,Santa Fe,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),40488,1172.316784965808
+82,Santa Fe,2017,17,Robos agravados por el resultado de lesiones y/o muertes,519,15.02747508884741
+82,Santa Fe,2017,19,Hurtos,12409,359.2985325192823
+82,Santa Fe,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),44656,1282.660359831958
+82,Santa Fe,2018,17,Robos agravados por el resultado de lesiones y/o muertes,356,10.22543640496635
+82,Santa Fe,2018,19,Hurtos,13988,401.7792259344641
+82,Santa Fe,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),45087,1284.854605708052
+82,Santa Fe,2019,17,Robos agravados por el resultado de lesiones y/o muertes,334,9.5180747955395
+82,Santa Fe,2019,19,Hurtos,14579,415.4611151023065
+82,Santa Fe,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),35780,1011.758225413398
+82,Santa Fe,2020,17,Robos agravados por el resultado de lesiones y/o muertes,236,6.673419262089493
+82,Santa Fe,2020,19,Hurtos,11364,321.342103789767
+82,Santa Fe,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),38645,1084.500994839184
+82,Santa Fe,2021,17,Robos agravados por el resultado de lesiones y/o muertes,253,7.099980636416446
+82,Santa Fe,2021,19,Hurtos,13442,377.2250581609085
+82,Santa Fe,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),40502,1103.547717090494
+82,Santa Fe,2022,17,Robos agravados por el resultado de lesiones y/o muertes,580,15.80311283177341
+82,Santa Fe,2022,19,Hurtos,15442,420.7442557728362
+82,Santa Fe,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),47748,1299.491258480046
+82,Santa Fe,2023,17,Robos agravados por el resultado de lesiones y/o muertes,227,6.177944954238302
+82,Santa Fe,2023,19,Hurtos,18085,492.1944250986771
+82,Santa Fe,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),41840,1137.081044473077
+82,Santa Fe,2024,17,Robos agravados por el resultado de lesiones y/o muertes,195,5.29949339560827
+82,Santa Fe,2024,19,Hurtos,18934,514.5672202689587
+82,Santa Fe,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),29922,812.0983713250731
+82,Santa Fe,2025,17,Robos agravados por el resultado de lesiones y/o muertes,152,4.125357678009863
+82,Santa Fe,2025,19,Hurtos,16958,460.248786208495
+86,Santiago del Estero,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2667,335.29456
+86,Santiago del Estero,2000,17,Robos agravados por el resultado de lesiones y/o muertes,82,10.309019
+86,Santiago del Estero,2000,19,Hurtos,6013,755.95282
+86,Santiago del Estero,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2749,339.82996
+86,Santiago del Estero,2001,17,Robos agravados por el resultado de lesiones y/o muertes,121,14.957957
+86,Santiago del Estero,2001,19,Hurtos,6215,768.29504
+86,Santiago del Estero,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3661,448.3992
+86,Santiago del Estero,2002,17,Robos agravados por el resultado de lesiones y/o muertes,168,20.576635
+86,Santiago del Estero,2002,19,Hurtos,7774,952.1593
+86,Santiago del Estero,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3045,369.51373
+86,Santiago del Estero,2003,17,Robos agravados por el resultado de lesiones y/o muertes,365,44.293106
+86,Santiago del Estero,2003,19,Hurtos,7392,897.02643
+86,Santiago del Estero,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4188,503.53302
+86,Santiago del Estero,2004,17,Robos agravados por el resultado de lesiones y/o muertes,340,40.878994
+86,Santiago del Estero,2004,19,Hurtos,8541,1026.9044
+86,Santiago del Estero,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3302,393.34717
+86,Santiago del Estero,2005,17,Robos agravados por el resultado de lesiones y/o muertes,291,34.665058
+86,Santiago del Estero,2005,19,Hurtos,6569,782.52502
+86,Santiago del Estero,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3811,449.79651
+86,Santiago del Estero,2006,17,Robos agravados por el resultado de lesiones y/o muertes,299,35.28973
+86,Santiago del Estero,2006,19,Hurtos,7143,843.05865
+86,Santiago del Estero,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),3213,375.72137
+86,Santiago del Estero,2007,17,Robos agravados por el resultado de lesiones y/o muertes,185,21.633505
+86,Santiago del Estero,2007,19,Hurtos,5444,636.60974
+86,Santiago del Estero,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2846,329.73743
+86,Santiago del Estero,2008,17,Robos agravados por el resultado de lesiones y/o muertes,214,24.794029
+86,Santiago del Estero,2008,19,Hurtos,4462,516.9671
+86,Santiago del Estero,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2929,336.22571
+86,Santiago del Estero,2009,17,Robos agravados por el resultado de lesiones y/o muertes,204,23.417564
+86,Santiago del Estero,2009,19,Hurtos,3893,446.88516
+86,Santiago del Estero,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2552,290.24869
+86,Santiago del Estero,2010,17,Robos agravados por el resultado de lesiones y/o muertes,165,18.766079
+86,Santiago del Estero,2010,19,Hurtos,3104,353.02975
+86,Santiago del Estero,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2031,228.50804
+86,Santiago del Estero,2011,17,Robos agravados por el resultado de lesiones y/o muertes,209,23.514614
+86,Santiago del Estero,2011,19,Hurtos,2445,275.08722
+86,Santiago del Estero,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1633,181.7506
+86,Santiago del Estero,2012,17,Robos agravados por el resultado de lesiones y/o muertes,97,10.795963
+86,Santiago del Estero,2012,19,Hurtos,1863,207.34927
+86,Santiago del Estero,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),1117,122.98132
+86,Santiago del Estero,2013,17,Robos agravados por el resultado de lesiones y/o muertes,61,6.7160792
+86,Santiago del Estero,2013,19,Hurtos,1355,149.18504
+86,Santiago del Estero,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),2617,285.03061
+86,Santiago del Estero,2014,17,Robos agravados por el resultado de lesiones y/o muertes,77,8.3864565
+86,Santiago del Estero,2014,19,Hurtos,3068,334.15128
+86,Santiago del Estero,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),4471,481.73843
+86,Santiago del Estero,2015,17,Robos agravados por el resultado de lesiones y/o muertes,14,1.508463
+86,Santiago del Estero,2015,19,Hurtos,4908,528.82404
+86,Santiago del Estero,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5664,603.76782
+86,Santiago del Estero,2016,17,Robos agravados por el resultado de lesiones y/o muertes,7,0.74618196
+86,Santiago del Estero,2016,19,Hurtos,6036,643.42206
+86,Santiago del Estero,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7816,824.3230131242011
+86,Santiago del Estero,2017,17,Robos agravados por el resultado de lesiones y/o muertes,8,0.8437287749480051
+86,Santiago del Estero,2017,19,Hurtos,7995,843.2014444636628
+86,Santiago del Estero,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9092,948.8119501049308
+86,Santiago del Estero,2018,17,Robos agravados por el resultado de lesiones y/o muertes,7,0.7304975418757715
+86,Santiago del Estero,2018,19,Hurtos,9066,946.0986735208207
+86,Santiago del Estero,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9243,954.55066512859
+86,Santiago del Estero,2019,17,Robos agravados por el resultado de lesiones y/o muertes,14,1.445819464654361
+86,Santiago del Estero,2019,19,Hurtos,9314,961.8830352707658
+86,Santiago del Estero,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5675,580.0801992818249
+86,Santiago del Estero,2020,17,Robos agravados por el resultado de lesiones y/o muertes,13,1.328818077649995
+86,Santiago del Estero,2020,19,Hurtos,5835,596.4348833144403
+86,Santiago del Estero,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6042,611.3868524505563
+86,Santiago del Estero,2021,17,Robos agravados por el resultado de lesiones y/o muertes,469,47.45786722928019
+86,Santiago del Estero,2021,19,Hurtos,5803,587.2025661652727
+86,Santiago del Estero,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7967,762.1910385391036
+86,Santiago del Estero,2022,17,Robos agravados por el resultado de lesiones y/o muertes,33,3.157060910228494
+86,Santiago del Estero,2022,19,Hurtos,7223,691.0136652903157
+86,Santiago del Estero,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10697,1019.1404426406
+86,Santiago del Estero,2023,17,Robos agravados por el resultado de lesiones y/o muertes,3,0.2858204475948209
+86,Santiago del Estero,2023,19,Hurtos,8768,835.3578948371301
+86,Santiago del Estero,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12190,1157.195353371767
+86,Santiago del Estero,2024,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.09492988953008755
+86,Santiago del Estero,2024,19,Hurtos,11078,1051.63331621431
+86,Santiago del Estero,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),9448,894.041677785411
+86,Santiago del Estero,2025,17,Robos agravados por el resultado de lesiones y/o muertes,19,1.797924627214523
+86,Santiago del Estero,2025,19,Hurtos,10704,1012.893958405487
+90,Tucumán,2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5692,427.19006
+90,Tucumán,2000,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+90,Tucumán,2000,19,Hurtos,4851,364.0722
+90,Tucumán,2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6340,468.40103
+90,Tucumán,2001,17,Robos agravados por el resultado de lesiones y/o muertes,204,15.071579
+90,Tucumán,2001,19,Hurtos,4909,362.67834
+90,Tucumán,2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),8044,588.01813
+90,Tucumán,2002,17,Robos agravados por el resultado de lesiones y/o muertes,764,55.848564
+90,Tucumán,2002,19,Hurtos,6439,470.69229
+90,Tucumán,2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6558,474.32956
+90,Tucumán,2003,17,Robos agravados por el resultado de lesiones y/o muertes,1309,94.677856
+90,Tucumán,2003,19,Hurtos,6337,458.345
+90,Tucumán,2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5744,411.06763
+90,Tucumán,2004,17,Robos agravados por el resultado de lesiones y/o muertes,2026,144.99008
+90,Tucumán,2004,19,Hurtos,6819,487.99966
+90,Tucumán,2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6341,449.00046
+90,Tucumán,2005,17,Robos agravados por el resultado de lesiones y/o muertes,2276,161.1615
+90,Tucumán,2005,19,Hurtos,7833,554.64764
+90,Tucumán,2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5775,404.60501
+90,Tucumán,2006,17,Robos agravados por el resultado de lesiones y/o muertes,2401,168.21759
+90,Tucumán,2006,19,Hurtos,6640,465.20816
+90,Tucumán,2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5587,387.30054
+90,Tucumán,2007,17,Robos agravados por el resultado de lesiones y/o muertes,2683,185.99022
+90,Tucumán,2007,19,Hurtos,5571,386.19138
+90,Tucumán,2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5641,386.91498
+90,Tucumán,2008,17,Robos agravados por el resultado de lesiones y/o muertes,1360,93.282112
+90,Tucumán,2008,19,Hurtos,4942,338.97073
+90,Tucumán,2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5384,365.38828
+90,Tucumán,2009,17,Robos agravados por el resultado de lesiones y/o muertes,1715,116.38947
+90,Tucumán,2009,19,Hurtos,4397,298.40497
+90,Tucumán,2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),5384,361.53033
+90,Tucumán,2010,17,Robos agravados por el resultado de lesiones y/o muertes,1393,93.538582
+90,Tucumán,2010,19,Hurtos,4024,270.20767
+90,Tucumán,2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),6527,432.27112
+90,Tucumán,2011,17,Robos agravados por el resultado de lesiones y/o muertes,1358,89.937828
+90,Tucumán,2011,19,Hurtos,3631,240.47441
+90,Tucumán,2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),7604,496.76974
+90,Tucumán,2012,17,Robos agravados por el resultado de lesiones y/o muertes,1391,90.874107
+90,Tucumán,2012,19,Hurtos,3835,250.54077
+90,Tucumán,2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),10969,707.01147
+90,Tucumán,2013,17,Robos agravados por el resultado de lesiones y/o muertes,1257,81.020454
+90,Tucumán,2013,19,Hurtos,4919,317.05618
+90,Tucumán,2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14523,923.7345
+90,Tucumán,2014,17,Robos agravados por el resultado de lesiones y/o muertes,876,55.717926
+90,Tucumán,2014,19,Hurtos,5427,345.18399
+90,Tucumán,2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),13365,839.0473
+90,Tucumán,2015,17,Robos agravados por el resultado de lesiones y/o muertes,2122,133.21799
+90,Tucumán,2015,19,Hurtos,5554,348.67706
+90,Tucumán,2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14479,897.37933
+90,Tucumán,2016,17,Robos agravados por el resultado de lesiones y/o muertes,2168,134.36829
+90,Tucumán,2016,19,Hurtos,5759,356.93124
+90,Tucumán,2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14775,904.2271932787921
+90,Tucumán,2017,17,Robos agravados por el resultado de lesiones y/o muertes,3567,218.2997223976617
+90,Tucumán,2017,19,Hurtos,6612,404.6531439566412
+90,Tucumán,2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),14432,872.346752998692
+90,Tucumán,2018,17,Robos agravados por el resultado de lesiones y/o muertes,3292,198.9859694340143
+90,Tucumán,2018,19,Hurtos,6529,394.6474466691006
+90,Tucumán,2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),16134,963.4413019774015
+90,Tucumán,2019,17,Robos agravados por el resultado de lesiones y/o muertes,2502,149.4068512177674
+90,Tucumán,2019,19,Hurtos,7183,428.9326188238301
+90,Tucumán,2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),15091,890.5052116771782
+90,Tucumán,2020,17,Robos agravados por el resultado de lesiones y/o muertes,30,1.770270780618604
+90,Tucumán,2020,19,Hurtos,5740,338.7118093583595
+90,Tucumán,2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),16272,949.0885611847742
+90,Tucumán,2021,17,Robos agravados por el resultado de lesiones y/o muertes,26,1.516488605629556
+90,Tucumán,2021,19,Hurtos,6478,377.838968741087
+90,Tucumán,2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),22359,1271.634681007889
+90,Tucumán,2022,17,Robos agravados por el resultado de lesiones y/o muertes,9,0.5118615380415495
+90,Tucumán,2022,19,Hurtos,7540,428.8262218703648
+90,Tucumán,2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),21459,1217.021628945367
+90,Tucumán,2023,17,Robos agravados por el resultado de lesiones y/o muertes,9,0.5104242816770727
+90,Tucumán,2023,19,Hurtos,10328,585.7402201289785
+90,Tucumán,2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),17051,964.2223790523238
+90,Tucumán,2024,17,Robos agravados por el resultado de lesiones y/o muertes,16,0.9047890484333577
+90,Tucumán,2024,19,Hurtos,10140,573.4100594446405
+90,Tucumán,2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),12772,720.1306745107458
+90,Tucumán,2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+90,Tucumán,2025,19,Hurtos,9441,532.3170762649509
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2000,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),522,536.87134
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2000,17,Robos agravados por el resultado de lesiones y/o muertes,5,5.1424456
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2000,19,Hurtos,638,656.17609
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2001,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),538,531.37378
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2001,17,Robos agravados por el resultado de lesiones y/o muertes,5,4.9384179
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2001,19,Hurtos,631,623.22833
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2002,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),716,686.84351
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2002,17,Robos agravados por el resultado de lesiones y/o muertes,3,2.8778358
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2002,19,Hurtos,893,856.6358
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2003,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),708,659.62939
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2003,17,Robos agravados por el resultado de lesiones y/o muertes,3,2.7950397
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2003,19,Hurtos,833,776.08936
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2004,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),649,587.27185
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2004,17,Robos agravados por el resultado de lesiones y/o muertes,3,2.7146618
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2004,19,Hurtos,895,809.87415
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2005,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),606,532.58807
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2005,17,Robos agravados por el resultado de lesiones y/o muertes,33,29.002319
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2005,19,Hurtos,796,699.57111
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2006,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),695,593.23627
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2006,17,Robos agravados por el resultado de lesiones y/o muertes,6,5.1214643
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2006,19,Hurtos,912,778.46252
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2007,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),784,649.95355
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2007,17,Robos agravados por el resultado de lesiones y/o muertes,9,7.4612017
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2007,19,Hurtos,767,635.86017
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2008,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),826,665.07776
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2008,17,Robos agravados por el resultado de lesiones y/o muertes,7,5.6362524
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2008,19,Hurtos,806,648.97418
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2009,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),927,724.93237
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2009,17,Robos agravados por el resultado de lesiones y/o muertes,5,3.910099
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2009,19,Hurtos,856,669.40894
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2010,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),687,521.79462
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2010,17,Robos agravados por el resultado de lesiones y/o muertes,9,6.8357372
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2010,19,Hurtos,712,540.78278
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2011,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),491,361.71561
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2011,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.73669165
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2011,19,Hurtos,687,506.10718
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2012,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),533,381.11719
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2012,17,Robos agravados por el resultado de lesiones y/o muertes,8,5.7203331
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2012,19,Hurtos,724,517.69012
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2013,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),724,502.82318
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2013,17,Robos agravados por el resultado de lesiones y/o muertes,2,1.3890142
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2013,19,Hurtos,898,623.66742
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2014,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),813,548.79407
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2014,17,Robos agravados por el resultado de lesiones y/o muertes,4,2.7000937
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2014,19,Hurtos,917,618.99652
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2015,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),715,469.41577
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2015,17,Robos agravados por el resultado de lesiones y/o muertes,5,3.2826276
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2015,19,Hurtos,883,579.71204
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2016,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),753,481.1225
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2016,17,Robos agravados por el resultado de lesiones y/o muertes,3,1.9168227
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2016,19,Hurtos,932,595.49292
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2017,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),871,541.9362867098059
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2017,17,Robos agravados por el resultado de lesiones y/o muertes,2,1.244400199104032
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2017,19,Hurtos,1045,650.1991040318567
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2018,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),733,444.3932486177127
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2018,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.6062663691919682
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2018,19,Hurtos,998,605.0538364535843
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),709,419.0728382875348
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,17,Robos agravados por el resultado de lesiones y/o muertes,5,2.955379677627185
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2019,19,Hurtos,1111,656.6853643687605
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),426,245.6294109506896
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2020,19,Hurtos,739,426.103602564694
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),435,244.798730423136
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2021,19,Hurtos,900,506.4801319099366
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),436,242.7008822956386
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.556653399760639
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2022,19,Hurtos,1131,629.5749951292827
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),492,272.4931461327573
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,17,Robos agravados por el resultado de lesiones y/o muertes,3,1.661543573980228
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2023,19,Hurtos,1154,639.1404281243942
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),515,284.1175529479265
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,17,Robos agravados por el resultado de lesiones y/o muertes,1,0.5516845688309252
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2024,19,Hurtos,1210,667.5383282854195
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,15,Robos (excluye los agravados por el resultado de lesiones y/o muertes),506,278.0173953176596
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,17,Robos agravados por el resultado de lesiones y/o muertes,0,0.0
+94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",2025,19,Hurtos,1021,560.979764069823
