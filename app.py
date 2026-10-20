@@ -1,7 +1,5 @@
 # Radar de Tendencias Delictivas - Tablero
 # TPI Introduccion a la Ciencia de Datos - Grupo 10 - UGR
-#
-# Para correrlo en la compu:  streamlit run app.py
 
 import json
 import numpy as np
@@ -12,11 +10,7 @@ import streamlit as st
 
 st.set_page_config(page_title='Radar de Tendencias Delictivas', layout='wide')
 
-
-# ---------------------------------------------------------------
 # 1. Datos
-# ---------------------------------------------------------------
-
 # Nombres cortos de los delitos (en el dataset son muy largos)
 DELITOS = {
     'Hurtos': 'Hurtos',
@@ -24,13 +18,12 @@ DELITOS = {
     'Robos agravados por el resultado de lesiones y/o muertes': 'Robos agravados',
 }
 
-# Nombres cortos de algunas provincias para que entren en los graficos
+# Nombres cortos de algunas provincias para los graficos
 CORTO = {'Ciudad Autónoma de Buenos Aires': 'CABA',
          'Tierra del Fuego, Antártida e Islas del Atlántico Sur': 'Tierra del Fuego'}
 
 # Colores del semaforo
 COLORES = {'Rojo': '#d03b3b', 'Amarillo': '#fab219', 'Verde': '#0ca30c'}
-
 
 @st.cache_data
 def cargar_datos():
@@ -39,27 +32,21 @@ def cargar_datos():
     df['delito'] = df['codigo_delito_snic_nombre'].replace(DELITOS)
     df['provincia'] = df['provincia_nombre'].replace(CORTO)
 
-    # Poblacion = hechos / tasa * 100.000 (igual que en el notebook)
+    # Poblacion = hechos / tasa * 100.000 (como en el notebook)
     df['poblacion'] = df['cantidad_hechos'] / df['tasa_hechos'] * 100000
     # En las filas con 0 hechos no se puede calcular, asi que usamos la de los otros delitos
     df['poblacion'] = df.groupby(['provincia_nombre', 'anio'])['poblacion'].transform('max')
     return df
-
 
 @st.cache_data
 def cargar_mapa():
     with open('provincias_argentina.geojson', encoding='utf-8') as archivo:
         return json.load(archivo)
 
-
 df = cargar_datos()
 mapa = cargar_mapa()
 
-
-# ---------------------------------------------------------------
 # 2. Filtros (barra lateral)
-# ---------------------------------------------------------------
-
 st.sidebar.header('Filtros')
 
 delitos_elegidos = st.sidebar.multiselect('Tipos de delito',
@@ -72,14 +59,11 @@ if len(delitos_elegidos) == 0:
 anio = st.sidebar.selectbox('Año a comparar con la prepandemia', [2025, 2024, 2023, 2022, 2021])
 
 st.sidebar.caption('Nivel prepandemia = promedio 2017-2019. '
-                   'El 2020 queda afuera por la cuarentena.')
+                   'El 2020 queda afuera por la cuarentena (ASPO).')
 st.sidebar.caption('Fuente: SNIC - Ministerio de Seguridad de la Nación.')
 
 
-# ---------------------------------------------------------------
 # 3. Calculos (los mismos pasos que el capitulo 5 del notebook)
-# ---------------------------------------------------------------
-
 datos = df[df['delito'].isin(delitos_elegidos)]
 
 # Tasa por provincia y año, sumando los delitos elegidos
@@ -107,7 +91,6 @@ def semaforo(residuo, actual, pre):
     else:
         return 'Verde'
 
-
 colores = []
 for provincia in tabla.index:
     fila = tabla.loc[provincia]
@@ -132,11 +115,7 @@ def numero(valor, decimales=0):
     texto = f'{valor:,.{decimales}f}'
     return texto.replace(',', 'X').replace('.', ',').replace('X', '.')
 
-
-# ---------------------------------------------------------------
 # 4. Encabezado e indicadores
-# ---------------------------------------------------------------
-
 st.title('Radar de Tendencias Delictivas')
 st.write(f'Delitos contra la propiedad ({", ".join(delitos_elegidos)}). '
          f'Comparación {anio} vs. nivel prepandemia (2017-2019). Tasas cada 100.000 habitantes.')
@@ -160,11 +139,7 @@ if r2 < 0.3:
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(['Mapa', 'Modelo', 'Ranking', 'Evolución', 'Metodología'])
 
-
-# ---------------------------------------------------------------
 # 5. Pestaña Mapa
-# ---------------------------------------------------------------
-
 with tab1:
     opcion = st.radio('Colorear por', ['Semáforo', 'Variación vs. prepandemia', f'Tasa {anio}'],
                       horizontal=True)
@@ -211,11 +186,7 @@ with tab1:
         st.caption('Se puede hacer zoom con la rueda del mouse. CABA es muy chica en el mapa, '
                    'conviene verla en el Ranking.')
 
-
-# ---------------------------------------------------------------
 # 6. Pestaña Modelo
-# ---------------------------------------------------------------
-
 with tab2:
     st.write(f'**Recta de regresión:** tasa {anio} = {numero(a)} + {numero(b, 2)} × tasa prepandemia'
              f'  |  **R² = {numero(r2, 2)}**  |  24 provincias')
@@ -258,11 +229,7 @@ with tab2:
     fig2.update_layout(height=650)
     st.plotly_chart(fig2)
 
-
-# ---------------------------------------------------------------
 # 7. Pestaña Ranking
-# ---------------------------------------------------------------
-
 with tab3:
     ranking = tabla.sort_values('residuo', ascending=False)
     ranking = ranking[['provincia', 'pre', 'actual', 'esperado', 'residuo', 'variacion', 'semaforo']]
@@ -272,11 +239,7 @@ with tab3:
     st.dataframe(ranking, hide_index=True, height=880)
     st.download_button('Descargar tabla (CSV)', ranking.to_csv(index=False), f'radar_{anio}.csv')
 
-
-# ---------------------------------------------------------------
 # 8. Pestaña Evolucion
-# ---------------------------------------------------------------
-
 with tab4:
     c1, c2 = st.columns([2, 1])
     mas_altas = list(tabla.sort_values('residuo', ascending=False)['provincia'][:3])
@@ -301,11 +264,7 @@ with tab4:
     st.caption('Por defecto se ven las 3 provincias con mayor residuo. '
                'La línea punteada es la tasa nacional.')
 
-
-# ---------------------------------------------------------------
 # 9. Pestaña Metodologia
-# ---------------------------------------------------------------
-
 with tab5:
     st.subheader('Qué responde el tablero')
     st.write(f'¿En qué provincias la tasa de delitos contra la propiedad de {anio} quedó por '
