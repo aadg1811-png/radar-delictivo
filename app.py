@@ -1,270 +1,328 @@
-"""
-Radar de Tendencias Delictivas · Tablero interactivo
-TPI Introducción a la Ciencia de Datos · Grupo 10 · UGR
+# Radar de Tendencias Delictivas - Tablero
+# TPI Introduccion a la Ciencia de Datos - Grupo 10 - UGR
+#
+# Para correrlo en la compu:  streamlit run app.py
 
-Cómo ejecutarlo (desde la carpeta donde está este archivo):
-    pip install -r requirements.txt
-    streamlit run app.py
-"""
 import json
-from pathlib import Path
-
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-CARPETA = Path(__file__).parent
-ARCHIVO_DATOS = CARPETA / 'Dataset_snic_limpio.csv'      # exportado por el notebook (Cap. 2)
-ARCHIVO_MAPA = CARPETA / 'provincias_argentina.geojson'
+st.set_page_config(page_title='Radar de Tendencias Delictivas', layout='wide')
 
+
+# ---------------------------------------------------------------
+# 1. Datos
+# ---------------------------------------------------------------
+
+# Nombres cortos de los delitos (en el dataset son muy largos)
 DELITOS = {
     'Hurtos': 'Hurtos',
     'Robos (excluye los agravados por el resultado de lesiones y/o muertes)': 'Robos',
     'Robos agravados por el resultado de lesiones y/o muertes': 'Robos agravados',
 }
+
+# Nombres cortos de algunas provincias para que entren en los graficos
 CORTO = {'Ciudad Autónoma de Buenos Aires': 'CABA',
          'Tierra del Fuego, Antártida e Islas del Atlántico Sur': 'Tierra del Fuego'}
-PRE = [2017, 2018, 2019]
 
-SEMAFORO = {
-    'Rojo':     {'color': '#d03b3b', 'texto': '🔴 Rojo · peor de lo esperado y sobre su nivel previo'},
-    'Amarillo': {'color': '#fab219', 'texto': '🟡 Amarillo · peor de lo esperado'},
-    'Verde':    {'color': '#0ca30c', 'texto': '🟢 Verde · igual o mejor de lo esperado'},
-}
-AZUL, GRIS = '#2a78d6', '#898781'
-PALETA = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#6250d6', '#e34948']
-
-st.set_page_config(page_title='Radar de Tendencias Delictivas', page_icon='🗺️', layout='wide')
+# Colores del semaforo
+COLORES = {'Rojo': '#d03b3b', 'Amarillo': '#fab219', 'Verde': '#0ca30c'}
 
 
-# ───────────────────────────── Datos ─────────────────────────────
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv(ARCHIVO_DATOS)
-    df['delito'] = df['codigo_delito_snic_nombre'].map(DELITOS)
-    df['poblacion'] = df['cantidad_hechos'] / df['tasa_hechos'].replace(0, np.nan) * 100_000
-    # La población es la misma para los 3 delitos de una provincia-año: la completamos para los ceros
-    df['poblacion'] = df.groupby(['provincia_nombre', 'anio'])['poblacion'].transform('max')
+    # Es el mismo archivo que exportamos en el notebook (capitulo 2)
+    df = pd.read_csv('Dataset_snic_limpio.csv')
+    df['delito'] = df['codigo_delito_snic_nombre'].replace(DELITOS)
     df['provincia'] = df['provincia_nombre'].replace(CORTO)
+
+    # Poblacion = hechos / tasa * 100.000 (igual que en el notebook)
+    df['poblacion'] = df['cantidad_hechos'] / df['tasa_hechos'] * 100000
+    # En las filas con 0 hechos no se puede calcular, asi que usamos la de los otros delitos
+    df['poblacion'] = df.groupby(['provincia_nombre', 'anio'])['poblacion'].transform('max')
     return df
 
 
 @st.cache_data
 def cargar_mapa():
-    return json.loads(ARCHIVO_MAPA.read_text(encoding='utf-8'))
+    with open('provincias_argentina.geojson', encoding='utf-8') as archivo:
+        return json.load(archivo)
 
-
-def armar_radar(df, delitos, anio):
-    """Tabla de 24 provincias con x (prepandemia), y (año elegido), regresión y semáforo."""
-    sel = df[df['delito'].isin(delitos)]
-    tasa = sel.pivot_table(index=['provincia_nombre', 'provincia'], columns='anio',
-                           values='tasa_hechos', aggfunc='sum').reset_index('provincia')
-    t = pd.DataFrame({'provincia': tasa['provincia'],
-                      'pre': tasa[PRE].mean(axis=1),
-                      'actual': tasa[anio]})
-    b, a = np.polyfit(t['pre'], t['actual'], 1)            # mínimos cuadrados: actual = a + b·pre
-    r2 = np.corrcoef(t['pre'], t['actual'])[0, 1] ** 2
-    t['esperado'] = a + b * t['pre']
-    t['residuo'] = t['actual'] - t['esperado']
-    t['var_pre'] = ((t['actual'] / t['pre'] - 1) * 100).replace([np.inf, -np.inf], np.nan)
-    t['semaforo'] = np.select([(t['residuo'] > 0) & (t['actual'] > t['pre']), t['residuo'] > 0],
-                              ['Rojo', 'Amarillo'], 'Verde')
-    return t.reset_index(), a, b, r2
-
-
-def tasa_nacional(df, delitos):
-    sel = df[df['delito'].isin(delitos)]
-    hechos = sel.groupby('anio')['cantidad_hechos'].sum()
-    pob = df.drop_duplicates(['provincia_nombre', 'anio']).groupby('anio')['poblacion'].sum()
-    return hechos / pob * 100_000
-
-
-def fmt(v, dec=0):
-    return f'{v:,.{dec}f}'.replace(',', 'X').replace('.', ',').replace('X', '.')
-
-
-if not ARCHIVO_DATOS.exists():
-    st.error('No encuentro **Dataset_snic_limpio.csv**. Copialo en la misma carpeta que app.py '
-             '(lo genera el notebook, en el Capítulo 2).')
-    st.stop()
 
 df = cargar_datos()
-geo = cargar_mapa() if ARCHIVO_MAPA.exists() else None
+mapa = cargar_mapa()
 
-# ───────────────────────────── Filtros ─────────────────────────────
-with st.sidebar:
-    st.header('Filtros')
-    delitos = st.multiselect('Tipos de delito', list(DELITOS.values()), default=list(DELITOS.values()))
-    if not delitos:
-        st.warning('Elegí al menos un tipo de delito.')
-        st.stop()
-    anio = st.selectbox('Año a comparar con la prepandemia', [2025, 2024, 2023, 2022, 2021], index=0)
-    st.caption('Nivel prepandemia = promedio 2017-2019. El año 2020 queda fuera por el efecto del ASPO.')
-    st.divider()
-    st.caption('Fuente: SNIC – Ministerio de Seguridad de la Nación (snic-provincias.xlsx).\n\n'
-               'TPI Introducción a la Ciencia de Datos · Grupo 10 · UGR')
 
-radar, a, b, r2 = armar_radar(df, delitos, anio)
-nac = tasa_nacional(df, delitos)
+# ---------------------------------------------------------------
+# 2. Filtros (barra lateral)
+# ---------------------------------------------------------------
 
-# ───────────────────────────── Encabezado ─────────────────────────────
-st.title('🗺️ Radar de Tendencias Delictivas')
-st.markdown(f'Delitos contra la propiedad (**{", ".join(delitos)}**) · comparación **{anio}** vs. nivel '
-            'prepandemia (2017-2019) · tasas cada 100.000 habitantes')
+st.sidebar.header('Filtros')
 
-k1, k2, k3, k4 = st.columns(4)
-k1.metric(f'Tasa nacional {anio}', fmt(nac[anio]),
-          f'{fmt((nac[anio] / nac[anio - 1] - 1) * 100, 1)}% vs. {anio - 1}', delta_color='inverse')
-k2.metric('Tasa nacional prepandemia', fmt(nac[PRE].mean()),
-          f'{fmt((nac[anio] / nac[PRE].mean() - 1) * 100, 1)}% en {anio}', delta_color='inverse')
-k3.metric('Provincias en rojo', f'{(radar["semaforo"] == "Rojo").sum()} de 24')
-k4.metric('R² del modelo', fmt(r2, 2), help='Proporción de las diferencias entre provincias '
-          f'en {anio} que explica su nivel prepandemia.')
+delitos_elegidos = st.sidebar.multiselect('Tipos de delito',
+                                          ['Hurtos', 'Robos', 'Robos agravados'],
+                                          default=['Hurtos', 'Robos', 'Robos agravados'])
+if len(delitos_elegidos) == 0:
+    st.warning('Elegí al menos un tipo de delito.')
+    st.stop()
+
+anio = st.sidebar.selectbox('Año a comparar con la prepandemia', [2025, 2024, 2023, 2022, 2021])
+
+st.sidebar.caption('Nivel prepandemia = promedio 2017-2019. '
+                   'El 2020 queda afuera por la cuarentena.')
+st.sidebar.caption('Fuente: SNIC - Ministerio de Seguridad de la Nación.')
+
+
+# ---------------------------------------------------------------
+# 3. Calculos (los mismos pasos que el capitulo 5 del notebook)
+# ---------------------------------------------------------------
+
+datos = df[df['delito'].isin(delitos_elegidos)]
+
+# Tasa por provincia y año, sumando los delitos elegidos
+tasa = datos.pivot_table(index='provincia', columns='anio', values='tasa_hechos', aggfunc='sum')
+
+tabla = pd.DataFrame()
+tabla['pre'] = tasa[[2017, 2018, 2019]].mean(axis=1)   # x: nivel prepandemia
+tabla['actual'] = tasa[anio]                             # y: año elegido
+
+# Regresion lineal simple (minimos cuadrados)
+b = tabla['pre'].cov(tabla['actual']) / tabla['pre'].var()
+a = tabla['actual'].mean() - b * tabla['pre'].mean()
+r2 = tabla['pre'].corr(tabla['actual']) ** 2
+
+tabla['esperado'] = a + b * tabla['pre']
+tabla['residuo'] = tabla['actual'] - tabla['esperado']
+tabla['variacion'] = (tabla['actual'] / tabla['pre'] - 1) * 100
+
+
+def semaforo(residuo, actual, pre):
+    if residuo > 0 and actual > pre:
+        return 'Rojo'
+    elif residuo > 0:
+        return 'Amarillo'
+    else:
+        return 'Verde'
+
+
+colores = []
+for provincia in tabla.index:
+    fila = tabla.loc[provincia]
+    colores.append(semaforo(fila['residuo'], fila['actual'], fila['pre']))
+tabla['semaforo'] = colores
+
+# Volvemos al nombre oficial para poder ubicar cada provincia en el mapa
+nombre_oficial = {}
+for nombre_largo, nombre_corto in CORTO.items():
+    nombre_oficial[nombre_corto] = nombre_largo
+tabla = tabla.reset_index()
+tabla['provincia_nombre'] = tabla['provincia'].replace(nombre_oficial)
+
+# Tasa nacional = hechos del pais / poblacion del pais * 100.000
+hechos_pais = datos.groupby('anio')['cantidad_hechos'].sum()
+poblacion_pais = df.drop_duplicates(['provincia_nombre', 'anio']).groupby('anio')['poblacion'].sum()
+nacional = hechos_pais / poblacion_pais * 100000
+
+
+def numero(valor, decimales=0):
+    # Formato argentino: punto para miles y coma para decimales
+    texto = f'{valor:,.{decimales}f}'
+    return texto.replace(',', 'X').replace('.', ',').replace('X', '.')
+
+
+# ---------------------------------------------------------------
+# 4. Encabezado e indicadores
+# ---------------------------------------------------------------
+
+st.title('Radar de Tendencias Delictivas')
+st.write(f'Delitos contra la propiedad ({", ".join(delitos_elegidos)}). '
+         f'Comparación {anio} vs. nivel prepandemia (2017-2019). Tasas cada 100.000 habitantes.')
+
+pre_nacional = nacional[[2017, 2018, 2019]].mean()
+cambio_anual = (nacional[anio] / nacional[anio - 1] - 1) * 100
+cambio_pre = (nacional[anio] / pre_nacional - 1) * 100
+cantidad_rojas = (tabla['semaforo'] == 'Rojo').sum()
+
+col1, col2, col3, col4 = st.columns(4)
+col1.metric(f'Tasa nacional {anio}', numero(nacional[anio]),
+            f'{numero(cambio_anual, 1)}% vs. {anio - 1}', delta_color='inverse')
+col2.metric('Tasa nacional prepandemia', numero(pre_nacional),
+            f'{numero(cambio_pre, 1)}% en {anio}', delta_color='inverse')
+col3.metric('Provincias en rojo', f'{cantidad_rojas} de 24')
+col4.metric('R² del modelo', numero(r2, 2))
 
 if r2 < 0.3:
-    st.warning(f'Con esta selección el nivel prepandemia explica muy poco (R² = {fmt(r2, 2)}): la recta no '
-               'describe bien a las provincias y el semáforo no es confiable. Pasa, por ejemplo, con robos '
-               'agravados solos, que son pocos casos y con cambios de registro.')
+    st.warning('Con esta selección el nivel prepandemia explica muy poco (R² bajo), '
+               'así que el semáforo no es confiable. Pasa por ejemplo con robos agravados solos.')
 
-tab_mapa, tab_modelo, tab_ranking, tab_evol, tab_metodo = st.tabs(
-    ['🗺️ Mapa', '📈 Modelo', '📋 Ranking', '⏱️ Evolución', 'ℹ️ Metodología'])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['Mapa', 'Modelo', 'Ranking', 'Evolución', 'Metodología'])
 
-# ───────────────────────────── Mapa ─────────────────────────────
-with tab_mapa:
-    if geo is None:
-        st.warning('Falta el archivo provincias_argentina.geojson en la carpeta de la app.')
+
+# ---------------------------------------------------------------
+# 5. Pestaña Mapa
+# ---------------------------------------------------------------
+
+with tab1:
+    opcion = st.radio('Colorear por', ['Semáforo', 'Variación vs. prepandemia', f'Tasa {anio}'],
+                      horizontal=True)
+
+    datos_hover = {'pre': ':.0f', 'actual': ':.0f', 'esperado': ':.0f',
+                   'residuo': ':.0f', 'variacion': ':.1f', 'provincia_nombre': False}
+    etiquetas = {'pre': 'Prepandemia', 'actual': f'Tasa {anio}', 'esperado': 'Esperado',
+                 'residuo': 'Residuo', 'variacion': 'Variación vs pre (%)', 'semaforo': 'Semáforo'}
+
+    if opcion == 'Semáforo':
+        color = 'semaforo'
+    elif opcion == 'Variación vs. prepandemia':
+        color = 'variacion'
     else:
-        modo = st.radio('Colorear por', ['Semáforo', 'Variación vs. prepandemia', f'Tasa {anio}'],
-                        horizontal=True)
-        hover = {'provincia': True, 'pre': ':.0f', 'actual': ':.0f', 'esperado': ':.0f',
-                 'residuo': ':+.0f', 'var_pre': ':+.1f', 'provincia_nombre': False}
-        etiquetas = {'pre': 'Prepandemia', 'actual': f'Tasa {anio}', 'esperado': 'Esperado',
-                     'residuo': 'Residuo', 'var_pre': 'Var. vs pre (%)', 'semaforo': 'Semáforo'}
-        comunes = dict(geojson=geo, locations='provincia_nombre', featureidkey='properties.provincia_nombre',
-                       hover_name='provincia', hover_data=hover, labels=etiquetas,
-                       map_style='white-bg', center={'lat': -40.5, 'lon': -63.5}, zoom=3.1, opacity=0.9)
-        if modo == 'Semáforo':
-            fig = px.choropleth_map(radar, color='semaforo',
-                                color_discrete_map={k: v['color'] for k, v in SEMAFORO.items()},
-                                category_orders={'semaforo': list(SEMAFORO)}, **comunes)
-        elif modo == 'Variación vs. prepandemia':
-            lim = radar['var_pre'].abs().max()
-            fig = px.choropleth_map(radar, color='var_pre', color_continuous_scale='RdBu_r',
-                                range_color=(-lim, lim), **comunes)
-        else:
-            fig = px.choropleth_map(radar, color='actual', color_continuous_scale='Blues', **comunes)
-        fig.update_traces(marker_line_color='white', marker_line_width=0.8)
-        fig.update_layout(height=720, margin=dict(l=0, r=0, t=10, b=0), legend_title_text='')
+        color = 'actual'
 
-        col_mapa, col_texto = st.columns([3, 2])
-        with col_mapa:
-            st.plotly_chart(fig, width='stretch', config={'scrollZoom': True})
-        with col_texto:
-            st.markdown('#### Cómo leer el semáforo')
-            for v in SEMAFORO.values():
-                st.markdown(f"- {v['texto']}")
-            st.markdown('**"Esperado"** es lo que predice la recta de regresión según el nivel prepandemia '
-                        'de cada provincia. El **residuo** es la diferencia entre lo real y lo esperado.')
-            for sem in ['Rojo', 'Amarillo']:
-                prov = radar[radar['semaforo'] == sem].sort_values('residuo', ascending=False)['provincia']
-                st.markdown(f"**{SEMAFORO[sem]['texto'].split(' · ')[0]}:** {', '.join(prov) or '—'}")
-            st.caption('Podés hacer zoom con la rueda del mouse. CABA es muy chica: acercate a la zona del AMBA o mirala en el Ranking.')
+    fig = px.choropleth_map(tabla, geojson=mapa, locations='provincia_nombre',
+                            featureidkey='properties.provincia_nombre', color=color,
+                            color_discrete_map=COLORES,
+                            category_orders={'semaforo': ['Rojo', 'Amarillo', 'Verde']},
+                            color_continuous_scale='Blues',
+                            hover_name='provincia', hover_data=datos_hover, labels=etiquetas,
+                            map_style='white-bg', center={'lat': -40.5, 'lon': -63.5},
+                            zoom=3.1, opacity=0.9)
+    if opcion == 'Variación vs. prepandemia':
+        limite = tabla['variacion'].abs().max()
+        fig.update_layout(coloraxis=dict(colorscale='RdBu_r', cmin=-limite, cmax=limite))
+    fig.update_layout(height=720, margin=dict(l=0, r=0, t=10, b=0))
 
-# ───────────────────────────── Modelo ─────────────────────────────
-with tab_modelo:
-    st.markdown(f'**Recta de regresión:** tasa {anio} = {fmt(a)} + {fmt(b, 2)} × tasa prepandemia '
-                f'  ·   **R² = {fmt(r2, 2)}**   ·   n = 24 provincias')
-    lim = np.array([0, max(radar['pre'].max(), radar['actual'].max()) * 1.08])
+    izquierda, derecha = st.columns([3, 2])
+    with izquierda:
+        st.plotly_chart(fig, width='stretch', config={'scrollZoom': True})
+    with derecha:
+        st.subheader('Cómo leer el semáforo')
+        st.write('**Rojo:** peor de lo esperado y por encima de su nivel prepandemia.')
+        st.write('**Amarillo:** peor de lo esperado, pero por debajo de su nivel previo.')
+        st.write('**Verde:** igual o mejor de lo esperado.')
+        st.write('El valor **esperado** es el que da la recta de regresión según el nivel '
+                 'prepandemia de cada provincia. El **residuo** es la diferencia entre el valor '
+                 'real y el esperado.')
+        for color_sem in ['Rojo', 'Amarillo']:
+            lista = tabla[tabla['semaforo'] == color_sem].sort_values('residuo', ascending=False)
+            st.write(f'**{color_sem}:** ' + ', '.join(lista['provincia']))
+        st.caption('Se puede hacer zoom con la rueda del mouse. CABA es muy chica en el mapa, '
+                   'conviene verla en el Ranking.')
+
+
+# ---------------------------------------------------------------
+# 6. Pestaña Modelo
+# ---------------------------------------------------------------
+
+with tab2:
+    st.write(f'**Recta de regresión:** tasa {anio} = {numero(a)} + {numero(b, 2)} × tasa prepandemia'
+             f'  |  **R² = {numero(r2, 2)}**  |  24 provincias')
+
+    maximo = max(tabla['pre'].max(), tabla['actual'].max()) * 1.08
+
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=lim, y=lim, mode='lines', line=dict(color=GRIS, dash='dash', width=1),
-                             name='y = x (igual que antes de la pandemia)', hoverinfo='skip'))
-    fig.add_trace(go.Scatter(x=lim, y=a + b * lim, mode='lines', line=dict(color=AZUL, width=2.5),
-                             name='Recta de regresión', hoverinfo='skip'))
-    for sem, v in SEMAFORO.items():
-        d = radar[radar['semaforo'] == sem]
-        # Nombre visible solo en rojas/amarillas y verdes muy alejadas; el resto aparece al pasar el mouse
-        visibles = np.where((d['semaforo'] != 'Verde') | (d['residuo'].abs() > 150), d['provincia'], '')
-        fig.add_trace(go.Scatter(
-            x=d['pre'], y=d['actual'], mode='markers+text', text=visibles, textposition='top center',
-            hovertext=d['provincia'],
-            textfont=dict(size=10), name=v['texto'],
-            marker=dict(size=12, color=v['color'], line=dict(color='white', width=1.5)),
-            customdata=np.stack([d['esperado'], d['residuo']], axis=-1),
-            hovertemplate='<b>%{hovertext}</b><br>Prepandemia: %{x:.0f}<br>Real: %{y:.0f}'
-                          '<br>Esperado: %{customdata[0]:.0f}<br>Residuo: %{customdata[1]:+.0f}<extra></extra>'))
-    fig.update_layout(height=620, xaxis_title='Tasa promedio 2017-2019 (x)', yaxis_title=f'Tasa {anio} (y)',
-                      xaxis_range=lim, yaxis_range=lim, legend=dict(orientation='h', y=-0.15),
-                      margin=dict(t=10))
-    st.plotly_chart(fig, width='stretch')
+    fig.add_trace(go.Scatter(x=[0, maximo], y=[0, maximo], mode='lines',
+                             line=dict(color='gray', dash='dash'),
+                             name='y = x (igual que antes de la pandemia)'))
+    fig.add_trace(go.Scatter(x=[0, maximo], y=[a, a + b * maximo], mode='lines',
+                             line=dict(color='#2a78d6', width=3), name='Recta de regresión'))
 
-    res = radar.sort_values('residuo')
-    fig2 = px.bar(res, x='residuo', y='provincia', orientation='h', color='semaforo',
-                  color_discrete_map={k: v['color'] for k, v in SEMAFORO.items()},
-                  category_orders={'provincia': res['provincia'].tolist()[::-1], 'semaforo': list(SEMAFORO)},
-                  labels={'residuo': f'Residuo = tasa real {anio} − tasa esperada', 'provincia': '',
-                          'semaforo': 'Semáforo'})
-    fig2.update_layout(height=650, margin=dict(t=30), title='Distancia a lo esperado (positivo = peor de lo esperado)')
-    st.plotly_chart(fig2, width='stretch')
+    for color_sem in ['Rojo', 'Amarillo', 'Verde']:
+        parte = tabla[tabla['semaforo'] == color_sem]
+        # Solo escribimos el nombre de las provincias mas importantes para que no se amontonen
+        nombres = []
+        for i in parte.index:
+            if parte.loc[i, 'semaforo'] != 'Verde' or abs(parte.loc[i, 'residuo']) > 150:
+                nombres.append(parte.loc[i, 'provincia'])
+            else:
+                nombres.append('')
+        fig.add_trace(go.Scatter(x=parte['pre'], y=parte['actual'], mode='markers+text',
+                                 text=nombres, textposition='top center', name=color_sem,
+                                 hovertext=parte['provincia'],
+                                 marker=dict(size=12, color=COLORES[color_sem])))
 
-# ───────────────────────────── Ranking ─────────────────────────────
-with tab_ranking:
-    tabla = (radar.sort_values('residuo', ascending=False)
-                  .assign(Semáforo=lambda d: d['semaforo'].map({k: v['texto'].split(' · ')[0] for k, v in SEMAFORO.items()}))
-                  [['provincia', 'pre', 'actual', 'esperado', 'residuo', 'var_pre', 'Semáforo']]
-                  .rename(columns={'provincia': 'Provincia', 'pre': 'Prepandemia (2017-19)',
-                                   'actual': f'Tasa {anio}', 'esperado': 'Esperado',
-                                   'residuo': 'Residuo', 'var_pre': 'Var. vs pre (%)'}))
-    st.dataframe(tabla, hide_index=True, width='stretch', height=880,
-                 column_config={c: st.column_config.NumberColumn(format='%.0f')
-                                for c in ['Prepandemia (2017-19)', f'Tasa {anio}', 'Esperado', 'Residuo']}
-                 | {'Var. vs pre (%)': st.column_config.NumberColumn(format='%+.1f')})
-    st.download_button('Descargar tabla (CSV)', tabla.to_csv(index=False).encode('utf-8'),
-                       f'radar_{anio}.csv', 'text/csv')
+    fig.update_layout(height=620, xaxis_title='Tasa promedio 2017-2019 (x)',
+                      yaxis_title=f'Tasa {anio} (y)', xaxis_range=[0, maximo],
+                      yaxis_range=[0, maximo], legend=dict(orientation='h', y=-0.15))
+    st.plotly_chart(fig)
 
-# ───────────────────────────── Evolución ─────────────────────────────
-with tab_evol:
+    ordenada = tabla.sort_values('residuo')
+    fig2 = px.bar(ordenada, x='residuo', y='provincia', orientation='h', color='semaforo',
+                  color_discrete_map=COLORES,
+                  category_orders={'provincia': list(ordenada['provincia'])[::-1],
+                                   'semaforo': ['Rojo', 'Amarillo', 'Verde']},
+                  labels={'residuo': f'Residuo (tasa real {anio} - tasa esperada)', 'provincia': ''},
+                  title='Distancia a lo esperado (positivo = peor de lo esperado)')
+    fig2.update_layout(height=650)
+    st.plotly_chart(fig2)
+
+
+# ---------------------------------------------------------------
+# 7. Pestaña Ranking
+# ---------------------------------------------------------------
+
+with tab3:
+    ranking = tabla.sort_values('residuo', ascending=False)
+    ranking = ranking[['provincia', 'pre', 'actual', 'esperado', 'residuo', 'variacion', 'semaforo']]
+    ranking.columns = ['Provincia', 'Prepandemia (2017-19)', f'Tasa {anio}', 'Esperado',
+                       'Residuo', 'Variación vs pre (%)', 'Semáforo']
+    ranking = ranking.round(1)
+    st.dataframe(ranking, hide_index=True, height=880)
+    st.download_button('Descargar tabla (CSV)', ranking.to_csv(index=False), f'radar_{anio}.csv')
+
+
+# ---------------------------------------------------------------
+# 8. Pestaña Evolucion
+# ---------------------------------------------------------------
+
+with tab4:
     c1, c2 = st.columns([2, 1])
-    top = radar.sort_values('residuo', ascending=False)['provincia'].head(3).tolist()
-    elegidas = c1.multiselect('Provincias', sorted(radar['provincia']), default=top)
+    mas_altas = list(tabla.sort_values('residuo', ascending=False)['provincia'][:3])
+    elegidas = c1.multiselect('Provincias', sorted(tabla['provincia']), default=mas_altas)
     desde, hasta = c2.slider('Período', 2000, 2025, (2010, 2025))
-    serie = (df[df['delito'].isin(delitos) & df['provincia'].isin(elegidas) & df['anio'].between(desde, hasta)]
-               .groupby(['provincia', 'anio'], as_index=False)['tasa_hechos'].sum())
+
+    serie = datos[datos['provincia'].isin(elegidas)]
+    serie = serie[(serie['anio'] >= desde) & (serie['anio'] <= hasta)]
+    serie = serie.groupby(['provincia', 'anio'], as_index=False)['tasa_hechos'].sum()
+
     fig = px.line(serie, x='anio', y='tasa_hechos', color='provincia', markers=True,
-                  color_discrete_sequence=PALETA, category_orders={'provincia': elegidas},
-                  labels={'anio': '', 'tasa_hechos': 'Tasa cada 100.000 hab.', 'provincia': 'Provincia'})
-    n = nac.loc[desde:hasta]
-    fig.add_trace(go.Scatter(x=n.index, y=n.values, mode='lines', name='Argentina (total)',
-                             line=dict(color='#0b0b0b', width=2, dash='dot')))
+                  color_discrete_sequence=px.colors.qualitative.Set1,
+                  labels={'anio': 'Año', 'tasa_hechos': 'Tasa cada 100.000 hab.', 'provincia': 'Provincia'})
+    pais = nacional.loc[desde:hasta]
+    fig.add_trace(go.Scatter(x=pais.index, y=pais.values, mode='lines', name='Argentina (total)',
+                             line=dict(color='black', dash='dot')))
     if desde <= 2020 <= hasta:
-        fig.add_vrect(x0=2019.5, x1=2020.5, fillcolor=GRIS, opacity=0.15, line_width=0,
-                      annotation_text='Pandemia', annotation_position='top left')
-    if desde <= 2019 and hasta >= 2017:
-        fig.add_vrect(x0=2016.5, x1=2019.5, fillcolor=AZUL, opacity=0.06, line_width=0,
-                      annotation_text='Prepandemia', annotation_position='top left')
-    fig.update_layout(height=520, hovermode='x unified', margin=dict(t=30))
-    st.plotly_chart(fig, width='stretch')
-    st.caption('Por defecto se muestran las 3 provincias con mayor residuo. La línea punteada es la tasa nacional.')
+        fig.add_vrect(x0=2019.5, x1=2020.5, fillcolor='gray', opacity=0.15, line_width=0,
+                      annotation_text='Pandemia')
+    fig.update_layout(height=520)
+    st.plotly_chart(fig)
+    st.caption('Por defecto se ven las 3 provincias con mayor residuo. '
+               'La línea punteada es la tasa nacional.')
 
-# ───────────────────────────── Metodología ─────────────────────────────
-with tab_metodo:
-    st.markdown(f"""
-#### Qué responde este tablero
-¿En qué provincias la tasa de delitos contra la propiedad de **{anio}** quedó por encima de lo que su propio
-nivel **prepandemia** permitía esperar, y cuáles ya superan ese nivel previo?
 
-#### Cómo se calcula
-1. **Datos:** SNIC por provincia, filtrado a hurtos, robos y robos agravados (1.872 filas, 2000-2025).
-2. **Tasa:** hechos cada 100.000 habitantes; se suman las tasas de los delitos elegidos.
-3. **x:** promedio 2017-2019 (nivel prepandemia). **y:** tasa del año elegido.
-4. **Regresión lineal simple** por mínimos cuadrados entre las 24 provincias: ŷ = a + b·x.
-5. **Residuo** = y − ŷ. Positivo = peor de lo esperado.
-6. **Semáforo:** rojo si el residuo es positivo y además supera su nivel prepandemia; amarillo si solo el
-   residuo es positivo; verde en el resto.
+# ---------------------------------------------------------------
+# 9. Pestaña Metodologia
+# ---------------------------------------------------------------
 
-#### Limitaciones
-- 24 observaciones: un caso extremo puede mover la recta (por ejemplo CABA o Neuquén).
-- Es delito **registrado**: depende de las denuncias y de cómo registra cada provincia.
-- Describe una asociación; no es una predicción ni explica causas.
-""")
+with tab5:
+    st.subheader('Qué responde el tablero')
+    st.write(f'¿En qué provincias la tasa de delitos contra la propiedad de {anio} quedó por '
+             'encima de lo que su propio nivel prepandemia permitía esperar, y cuáles ya superan '
+             'ese nivel previo?')
+
+    st.subheader('Cómo se calcula')
+    st.write('1. Datos del SNIC por provincia, filtrados a hurtos, robos y robos agravados '
+             '(1.872 filas, 2000-2025).')
+    st.write('2. Tasa = hechos cada 100.000 habitantes. Se suman las tasas de los delitos elegidos.')
+    st.write(f'3. x = promedio 2017-2019 (prepandemia). y = tasa {anio}.')
+    st.write('4. Regresión lineal simple entre las 24 provincias (mínimos cuadrados).')
+    st.write('5. Residuo = valor real - valor esperado. Positivo = peor de lo esperado.')
+    st.write('6. Semáforo: rojo si el residuo es positivo y además supera su nivel prepandemia; '
+             'amarillo si solo el residuo es positivo; verde en el resto.')
+
+    st.subheader('Limitaciones')
+    st.write('- Son solo 24 provincias: un caso extremo puede mover la recta (por ejemplo CABA o Neuquén).')
+    st.write('- Es delito registrado: depende de las denuncias y de cómo registra cada provincia.')
+    st.write('- Muestra una relación, no explica causas ni predice el futuro.')
